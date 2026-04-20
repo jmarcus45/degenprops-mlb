@@ -1,0 +1,2303 @@
+[
+  {
+    "game_id": "0d7765b227447b5fb746d1178be90177",
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Atlanta Braves",
+    "commence_time": "2026-04-19T23:21:00Z",
+    "props": [
+      {
+        "player": "Trea Turner",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -175,
+            "implied_prob": 0.6364
+          },
+          "betmgm": {
+            "odds": -165,
+            "implied_prob": 0.6226
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 135,
+            "implied_prob": 0.4255
+          },
+          "betmgm": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -105,
+            "implied_prob": 0.5122
+          },
+          "betmgm": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -125,
+            "implied_prob": 0.5556
+          },
+          "betmgm": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          }
+        }
+      },
+      {
+        "player": "Dominic Smith",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Dominic Smith",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -188,
+            "implied_prob": 0.6528
+          },
+          "betmgm": {
+            "odds": -165,
+            "implied_prob": 0.6226
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 145,
+            "implied_prob": 0.4082
+          },
+          "betmgm": {
+            "odds": 130,
+            "implied_prob": 0.4348
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -168,
+            "implied_prob": 0.6269
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 130,
+            "implied_prob": 0.4348
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -162,
+            "implied_prob": 0.6183
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 126,
+            "implied_prob": 0.4425
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -154,
+            "implied_prob": 0.6063
+          },
+          "betmgm": {
+            "odds": -140,
+            "implied_prob": 0.5833
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          },
+          "betmgm": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -154,
+            "implied_prob": 0.6063
+          },
+          "betmgm": {
+            "odds": -150,
+            "implied_prob": 0.6
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          },
+          "betmgm": {
+            "odds": 110,
+            "implied_prob": 0.4762
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -148,
+            "implied_prob": 0.5968
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 115,
+            "implied_prob": 0.4651
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -142,
+            "implied_prob": 0.5868
+          },
+          "betmgm": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 110,
+            "implied_prob": 0.4762
+          },
+          "betmgm": {
+            "odds": -110,
+            "implied_prob": 0.5238
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -142,
+            "implied_prob": 0.5868
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 110,
+            "implied_prob": 0.4762
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -130,
+            "implied_prob": 0.5652
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          },
+          "betmgm": {
+            "odds": -105,
+            "implied_prob": 0.5122
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -110,
+            "implied_prob": 0.5238
+          },
+          "betmgm": {
+            "odds": -125,
+            "implied_prob": 0.5556
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          },
+          "betmgm": {
+            "odds": -115,
+            "implied_prob": 0.5349
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -110,
+            "implied_prob": 0.5238
+          },
+          "betmgm": {
+            "odds": -115,
+            "implied_prob": 0.5349
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -110,
+            "implied_prob": 0.5238
+          },
+          "betmgm": {
+            "odds": -115,
+            "implied_prob": 0.5349
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          },
+          "betmgm": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_hits",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_hits",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -154,
+            "implied_prob": 0.6063
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 4.5,
+        "books": {
+          "draftkings": {
+            "odds": -105,
+            "implied_prob": 0.5122
+          },
+          "betmgm": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 4.5,
+        "books": {
+          "draftkings": {
+            "odds": -125,
+            "implied_prob": 0.5556
+          },
+          "betmgm": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -175,
+            "implied_prob": 0.6364
+          },
+          "betmgm": {
+            "odds": -165,
+            "implied_prob": 0.6226
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 135,
+            "implied_prob": 0.4255
+          },
+          "betmgm": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Dominic Smith",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Dominic Smith",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -110,
+            "implied_prob": 0.5238
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -115,
+            "implied_prob": 0.5349
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -115,
+            "implied_prob": 0.5349
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -110,
+            "implied_prob": 0.5238
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -105,
+            "implied_prob": 0.5122
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -125,
+            "implied_prob": 0.5556
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -165,
+            "implied_prob": 0.6226
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -150,
+            "implied_prob": 0.6
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": 110,
+            "implied_prob": 0.4762
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_total_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": -140,
+            "implied_prob": 0.5833
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_total_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "betmgm": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 2.5,
+        "books": {
+          "draftkings": {
+            "odds": 210,
+            "implied_prob": 0.3226
+          },
+          "betmgm": {
+            "odds": 180,
+            "implied_prob": 0.3571
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 2.5,
+        "books": {
+          "draftkings": {
+            "odds": -285,
+            "implied_prob": 0.7403
+          },
+          "betmgm": {
+            "odds": -250,
+            "implied_prob": 0.7143
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 190,
+            "implied_prob": 0.3448
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -255,
+            "implied_prob": 0.7183
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 200,
+            "implied_prob": 0.3333
+          },
+          "betmgm": {
+            "odds": 200,
+            "implied_prob": 0.3333
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -270,
+            "implied_prob": 0.7297
+          },
+          "betmgm": {
+            "odds": -275,
+            "implied_prob": 0.7333
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 210,
+            "implied_prob": 0.3226
+          },
+          "betmgm": {
+            "odds": 225,
+            "implied_prob": 0.3077
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -285,
+            "implied_prob": 0.7403
+          },
+          "betmgm": {
+            "odds": -325,
+            "implied_prob": 0.7647
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 210,
+            "implied_prob": 0.3226
+          },
+          "betmgm": {
+            "odds": 195,
+            "implied_prob": 0.339
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -285,
+            "implied_prob": 0.7403
+          },
+          "betmgm": {
+            "odds": -275,
+            "implied_prob": 0.7333
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 220,
+            "implied_prob": 0.3125
+          },
+          "betmgm": {
+            "odds": 230,
+            "implied_prob": 0.303
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -300,
+            "implied_prob": 0.75
+          },
+          "betmgm": {
+            "odds": -325,
+            "implied_prob": 0.7647
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 230,
+            "implied_prob": 0.303
+          },
+          "betmgm": {
+            "odds": 230,
+            "implied_prob": 0.303
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -320,
+            "implied_prob": 0.7619
+          },
+          "betmgm": {
+            "odds": -325,
+            "implied_prob": 0.7647
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 250,
+            "implied_prob": 0.2857
+          },
+          "betmgm": {
+            "odds": 260,
+            "implied_prob": 0.2778
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -350,
+            "implied_prob": 0.7778
+          },
+          "betmgm": {
+            "odds": -375,
+            "implied_prob": 0.7895
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 250,
+            "implied_prob": 0.2857
+          },
+          "betmgm": {
+            "odds": 230,
+            "implied_prob": 0.303
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -350,
+            "implied_prob": 0.7778
+          },
+          "betmgm": {
+            "odds": -325,
+            "implied_prob": 0.7647
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 270,
+            "implied_prob": 0.2703
+          },
+          "betmgm": {
+            "odds": 260,
+            "implied_prob": 0.2778
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -385,
+            "implied_prob": 0.7938
+          },
+          "betmgm": {
+            "odds": -375,
+            "implied_prob": 0.7895
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 270,
+            "implied_prob": 0.2703
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -385,
+            "implied_prob": 0.7938
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 270,
+            "implied_prob": 0.2703
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -385,
+            "implied_prob": 0.7938
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 280,
+            "implied_prob": 0.2632
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -400,
+            "implied_prob": 0.8
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 280,
+            "implied_prob": 0.2632
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -400,
+            "implied_prob": 0.8
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 340,
+            "implied_prob": 0.2273
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -500,
+            "implied_prob": 0.8333
+          }
+        }
+      },
+      {
+        "player": "Dominic Smith",
+        "market": "batter_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 360,
+            "implied_prob": 0.2174
+          }
+        }
+      },
+      {
+        "player": "Dominic Smith",
+        "market": "batter_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -550,
+            "implied_prob": 0.8462
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 140,
+            "implied_prob": 0.4167
+          },
+          "betmgm": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -182,
+            "implied_prob": 0.6454
+          },
+          "betmgm": {
+            "odds": -165,
+            "implied_prob": 0.6226
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 160,
+            "implied_prob": 0.3846
+          },
+          "betmgm": {
+            "odds": 155,
+            "implied_prob": 0.3922
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -212,
+            "implied_prob": 0.6795
+          },
+          "betmgm": {
+            "odds": -210,
+            "implied_prob": 0.6774
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 135,
+            "implied_prob": 0.4255
+          },
+          "betmgm": {
+            "odds": 130,
+            "implied_prob": 0.4348
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -175,
+            "implied_prob": 0.6364
+          },
+          "betmgm": {
+            "odds": -175,
+            "implied_prob": 0.6364
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 145,
+            "implied_prob": 0.4082
+          },
+          "betmgm": {
+            "odds": 155,
+            "implied_prob": 0.3922
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -188,
+            "implied_prob": 0.6528
+          },
+          "betmgm": {
+            "odds": -210,
+            "implied_prob": 0.6774
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 150,
+            "implied_prob": 0.4
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -198,
+            "implied_prob": 0.6644
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 165,
+            "implied_prob": 0.3774
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -218,
+            "implied_prob": 0.6855
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 170,
+            "implied_prob": 0.3704
+          },
+          "betmgm": {
+            "odds": 165,
+            "implied_prob": 0.3774
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -225,
+            "implied_prob": 0.6923
+          },
+          "betmgm": {
+            "odds": -220,
+            "implied_prob": 0.6875
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 176,
+            "implied_prob": 0.3623
+          },
+          "betmgm": {
+            "odds": 160,
+            "implied_prob": 0.3846
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -234,
+            "implied_prob": 0.7006
+          },
+          "betmgm": {
+            "odds": -220,
+            "implied_prob": 0.6875
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 185,
+            "implied_prob": 0.3509
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -248,
+            "implied_prob": 0.7126
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 190,
+            "implied_prob": 0.3448
+          },
+          "betmgm": {
+            "odds": 190,
+            "implied_prob": 0.3448
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -255,
+            "implied_prob": 0.7183
+          },
+          "betmgm": {
+            "odds": -275,
+            "implied_prob": 0.7333
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 200,
+            "implied_prob": 0.3333
+          },
+          "betmgm": {
+            "odds": 195,
+            "implied_prob": 0.339
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -270,
+            "implied_prob": 0.7297
+          },
+          "betmgm": {
+            "odds": -275,
+            "implied_prob": 0.7333
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 210,
+            "implied_prob": 0.3226
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -285,
+            "implied_prob": 0.7403
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 220,
+            "implied_prob": 0.3125
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -300,
+            "implied_prob": 0.75
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 230,
+            "implied_prob": 0.303
+          },
+          "betmgm": {
+            "odds": 225,
+            "implied_prob": 0.3077
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -320,
+            "implied_prob": 0.7619
+          },
+          "betmgm": {
+            "odds": -325,
+            "implied_prob": 0.7647
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_runs_scored",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 250,
+            "implied_prob": 0.2857
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_runs_scored",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -350,
+            "implied_prob": 0.7778
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 4.5,
+        "books": {
+          "draftkings": {
+            "odds": -170,
+            "implied_prob": 0.6296
+          }
+        }
+      },
+      {
+        "player": "Kyle Schwarber",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 4.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 3.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 3.5,
+        "books": {
+          "draftkings": {
+            "odds": -145,
+            "implied_prob": 0.5918
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -145,
+            "implied_prob": 0.5918
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -150,
+            "implied_prob": 0.6
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 110,
+            "implied_prob": 0.4762
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -155,
+            "implied_prob": 0.6078
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 115,
+            "implied_prob": 0.4651
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -160,
+            "implied_prob": 0.6154
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Drake Baldwin",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -180,
+            "implied_prob": 0.6429
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": 130,
+            "implied_prob": 0.4348
+          }
+        }
+      },
+      {
+        "player": "Rafael Marchan",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 1.5,
+        "books": {
+          "draftkings": {
+            "odds": -185,
+            "implied_prob": 0.6491
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -185,
+            "implied_prob": 0.6491
+          }
+        }
+      },
+      {
+        "player": "Alec Bohm",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 130,
+            "implied_prob": 0.4348
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -180,
+            "implied_prob": 0.6429
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -175,
+            "implied_prob": 0.6364
+          }
+        }
+      },
+      {
+        "player": "Matt Olson",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -175,
+            "implied_prob": 0.6364
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 125,
+            "implied_prob": 0.4444
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -170,
+            "implied_prob": 0.6296
+          }
+        }
+      },
+      {
+        "player": "Adolis Garcia",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -140,
+            "implied_prob": 0.5833
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_hits_runs_rbis",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_hits_runs_rbis",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -120,
+            "implied_prob": 0.5455
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 375,
+            "implied_prob": 0.2105
+          }
+        }
+      },
+      {
+        "player": "Bryson Stott",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -575,
+            "implied_prob": 0.8519
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 400,
+            "implied_prob": 0.2
+          }
+        }
+      },
+      {
+        "player": "Trea Turner",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -625,
+            "implied_prob": 0.8621
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 600,
+            "implied_prob": 0.1429
+          }
+        }
+      },
+      {
+        "player": "Ronald Acuna Jr.",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -1100,
+            "implied_prob": 0.9167
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 700,
+            "implied_prob": 0.125
+          }
+        }
+      },
+      {
+        "player": "Justin Crawford",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -1300,
+            "implied_prob": 0.9286
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 750,
+            "implied_prob": 0.1176
+          }
+        }
+      },
+      {
+        "player": "Michael Harris II",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -1450,
+            "implied_prob": 0.9355
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 800,
+            "implied_prob": 0.1111
+          }
+        }
+      },
+      {
+        "player": "Brandon Marsh",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -1600,
+            "implied_prob": 0.9412
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 1100,
+            "implied_prob": 0.0833
+          }
+        }
+      },
+      {
+        "player": "Bryce Harper",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -2500,
+            "implied_prob": 0.9615
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 1600,
+            "implied_prob": 0.0588
+          }
+        }
+      },
+      {
+        "player": "Ozzie Albies",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -5000,
+            "implied_prob": 0.9804
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_stolen_bases",
+        "side": "Over",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": 1800,
+            "implied_prob": 0.0526
+          }
+        }
+      },
+      {
+        "player": "Mike Yastrzemski",
+        "market": "batter_stolen_bases",
+        "side": "Under",
+        "line": 0.5,
+        "books": {
+          "draftkings": {
+            "odds": -7000,
+            "implied_prob": 0.9859
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_strikeouts",
+        "side": "Over",
+        "line": 5.5,
+        "books": {
+          "draftkings": {
+            "odds": 120,
+            "implied_prob": 0.4545
+          },
+          "betmgm": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_strikeouts",
+        "side": "Under",
+        "line": 5.5,
+        "books": {
+          "draftkings": {
+            "odds": -154,
+            "implied_prob": 0.6063
+          },
+          "betmgm": {
+            "odds": -125,
+            "implied_prob": 0.5556
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_hits_allowed",
+        "side": "Over",
+        "line": 5.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          },
+          "betmgm": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_hits_allowed",
+        "side": "Under",
+        "line": 5.5,
+        "books": {
+          "draftkings": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          },
+          "betmgm": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_walks",
+        "side": "Over",
+        "line": 2.5,
+        "books": {
+          "draftkings": {
+            "odds": 100,
+            "implied_prob": 0.5
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_walks",
+        "side": "Under",
+        "line": 2.5,
+        "books": {
+          "draftkings": {
+            "odds": -130,
+            "implied_prob": 0.5652
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_outs",
+        "side": "Over",
+        "line": 14.5,
+        "books": {
+          "draftkings": {
+            "odds": -135,
+            "implied_prob": 0.5745
+          }
+        }
+      },
+      {
+        "player": "Grant Holmes",
+        "market": "pitcher_outs",
+        "side": "Under",
+        "line": 14.5,
+        "books": {
+          "draftkings": {
+            "odds": 105,
+            "implied_prob": 0.4878
+          }
+        }
+      }
+    ],
+    "implied_totals": {
+      "game_total": 8.5,
+      "home_implied": 5.0,
+      "away_implied": 3.5
+    }
+  }
+]

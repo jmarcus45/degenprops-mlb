@@ -1,0 +1,775 @@
+{
+  "flagged_props": [
+    {
+      "player": "Grant Holmes",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "pitcher_strikeouts",
+      "line": 5.5,
+      "recommendation": "Under",
+      "best_book": "draftkings",
+      "best_odds": -154,
+      "edge_summary": "Holmes projects at just 3.48 Ks against a line of 5.5, a gap of -2.02 from the model. His recent 5-start avg is 3.8 Ks including a 2-K, 1-IP outing in his most recent start, and he is on 0 days rest with a clear short-rest workload penalty. The Phillies lineup is only average in K rate (21.6%), and Holmes has exceeded 5.5 Ks in just 1 of his last 5 starts.",
+      "key_stats": {
+        "recent_avg_k": 3.8,
+        "projected_k": 3.48,
+        "projection_delta_vs_line": -2.02,
+        "days_rest": 0,
+        "recent_k_by_start_last": 2,
+        "opp_lineup_avg_k_pct": 21.6,
+        "savant_k_pct": 19.3,
+        "k_bb_ratio": 1.73,
+        "opp_implied_total": 5.0,
+        "game_total": 8.5,
+        "opp_team_k_pct": 23.0,
+        "opp_lineup_k_pct": 21.6
+      },
+      "signals_for": [
+        "5-start recent avg 3.8 Ks \u2014 well below 5.5 line",
+        "0 days rest \u2014 explicit short-rest workload penalty applied",
+        "Most recent start: 2 Ks in 1.0 IP (27 pitches) \u2014 extremely limited outing",
+        "savant_k_pct 19.3% \u2014 below-average strikeout rate for a starter",
+        "Average count control (K/BB 1.73) \u2014 below elite threshold",
+        "Opposing lineup only average K tendency (21.6% avg)"
+      ],
+      "signal_names": [
+        "recent_form",
+        "workload",
+        "recent_form",
+        "count_efficiency",
+        "count_efficiency",
+        "lineup_k_profile"
+      ],
+      "conflicting_signals": [
+        "Elite arsenal signal: 49% breaking ball usage, Slider whiff 53.3% \u2014 genuine swing-and-miss stuff that could exceed projections in a clean inning sequence",
+        "BetMGM line is -125 Under vs DraftKings -154 \u2014 discrepancy suggests some book uncertainty on ceiling",
+        "[auditor] Most recent start only 1.0 IP with 27 pitches (2 Ks) \u2014 severe workload compression suggests potential early exit or bullpen usage pattern; next start may not reach typical length needed for 5.5 K opportunity"
+      ],
+      "platoon_note": "N/A \u2014 pitcher prop",
+      "workload_note": "0 days rest flagged. Most recent outing was 1.0 IP / 27 pitches \u2014 appears to have been an abbreviated start. Avg pitches last 3 starts: 61.7.",
+      "park_note": "Citizens Bank Park SO factor 99 \u2014 neutral, slight pitcher lean on Ks.",
+      "weather_note": "43.2F, wind 2.2 mph NW (calm neutral) \u2014 cold but no meaningful wind effect.",
+      "umpire_note": "D.J. Reyburn: neutral zone \u2014 no K inflation or suppression expected.",
+      "edge_strength": "5 signals aligned: far-below-line projection (-2.02), 3.8 recent avg K, 0 days rest workload cap, below-avg savant K%, average lineup K profile",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "recent_form",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 6,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Philadelphia Phillies",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projection model: 3.48 projected Ks, -2.02 delta vs line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No projection model data provided in source. Cannot verify external model output."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Most recent start only 1.0 IP with 27 pitches (2 Ks) \u2014 severe workload compression suggests potential early exit or bullpen usage pattern; next start may not reach typical length needed for 5.5 K opportunity"
+      ],
+      "model_support_score": -2.02,
+      "model_support_bucket": "weak",
+      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
+      "lineup_scope": "opposing_batting_lineup",
+      "decision_context": [
+        "Model support weak (-2.02)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support weak (-2.02) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Matt Olson",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_hits",
+      "line": 0.5,
+      "recommendation": "Over",
+      "best_book": "draftkings",
+      "best_odds": -120,
+      "edge_summary": "Olson has recorded a hit in 13 of his last 15 games (87%), the strongest historical rate in this slate, and his projection model calls for 1.16 hits (+0.66 above the 0.5 line). His power metrics are elite (xSLG .572, barrel% 19.6%, hard hit 46.4%) and his season output is strong (.293 AVG, .987 OPS). While Painter is a quality arm, Olson's structural hit-generating profile is durable and independent of matchup.",
+      "key_stats": {
+        "hist_hit_rate_over05": 0.87,
+        "projected_hits": 1.16,
+        "projection_delta_vs_hit_line": 0.66,
+        "season_avg": ".293",
+        "xba": ".240",
+        "hard_hit_pct": "46.4",
+        "barrel_pct": "19.6",
+        "contact_rate": 73.4,
+        "opp_pitcher_xfip": 2.96,
+        "team_implied_total": 3.5,
+        "game_total": 8.5,
+        "projected_total_bases": 2.77
+      },
+      "signals_for": [
+        "Hit O0.5 in 13/15 recent games (87%) \u2014 elite historical rate",
+        "xSLG .572 + barrel% 19.6% + hard hit 46.4% \u2014 elite power/contact quality",
+        "Season .293 AVG, .987 OPS \u2014 strong baseline production",
+        "Citizens Bank Park hits factor 104 \u2014 slight hitter-friendly lean"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "power_metrics",
+        "quality_of_contact",
+        "park_factor"
+      ],
+      "conflicting_signals": [
+        "Andrew Painter has an elite xFIP of 2.96 \u2014 legitimate ace-caliber arm that suppresses hit rates",
+        "Atlanta implied total only 3.5 \u2014 suppressed run environment, fewer plate appearance opportunities in close/low-scoring game",
+        "xBA only .240 \u2014 Statcast expected batting average below his .293 season average, suggesting BABIP-driven outperformance risk",
+        "Contact rate 73.4% is below average \u2014 more K risk than a typical hits Over candidate",
+        "[auditor] BABIP .365 (season) vs xBA .240 represents 125 point luck-driven elevation; against elite pitcher Painter, regression toward true talent (.240) is material downside to hit rate"
+      ],
+      "platoon_note": "Olson bats L vs Painter R \u2014 no platoon split data provided, same-side matchup not unfavorable.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park hits factor 104 \u2014 modest hitter-friendly lean.",
+      "weather_note": "43.2F, calm (2.2 mph NW) \u2014 cold weather can slightly suppress offense but no major wind factor.",
+      "umpire_note": "D.J. Reyburn: neutral zone \u2014 no meaningful impact on hit props.",
+      "edge_strength": "4 signals aligned: 87% historical hit rate, +0.66 projection delta, elite power metrics (barrel 19.6%, hard hit 46.4%), hits-friendly park",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Philadelphia Phillies",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 1.16 hits, +0.66 above 0.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No projection model data provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "BABIP .365 (season) vs xBA .240 represents 125 point luck-driven elevation; against elite pitcher Painter, regression toward true talent (.240) is material downside to hit rate"
+      ],
+      "model_support_score": 0.66,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+0.66)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+0.66) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Matt Olson",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_total_bases",
+      "line": 0.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": -115,
+      "edge_summary": "Olson projects 2.77 total bases (+2.27 above the 0.5 line), driven by one of the strongest power profiles in this slate: barrel% 19.6%, xSLG .572, hard hit 46.4%. He has cleared 1.5 total bases in 11 of his last 15 games (73%), meaning even his modest floor clears this 0.5 line with high frequency. The structural power signals here are among the most durable available.",
+      "key_stats": {
+        "hist_tb_rate_over15": 0.73,
+        "projected_total_bases": 2.77,
+        "projection_delta_vs_tb_line": 2.27,
+        "xslg": ".572",
+        "barrel_pct": "19.6",
+        "hard_hit_pct": "46.4",
+        "season_slg": ".598",
+        "opp_pitcher_xfip": 2.96,
+        "team_implied_total": 3.5,
+        "game_total": 8.5,
+        "projected_hits": 1.12,
+        "projection_delta_vs_hit_line": 0.62
+      },
+      "signals_for": [
+        "TB >1.5 in 11/15 recent games (73%) \u2014 strong historical TB floor well above 0.5 line",
+        "xSLG .572 + barrel% 19.6% \u2014 elite sustainable power metrics",
+        "Hard hit% 46.4% \u2014 consistent quality contact profile",
+        "Season SLG .598 confirms true power output",
+        "Citizens Bank Park HR factor L 112 \u2014 meaningful LHH power boost"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "power_metrics",
+        "quality_of_contact",
+        "quality_of_contact",
+        "park_factor"
+      ],
+      "conflicting_signals": [
+        "Andrew Painter's xFIP 2.96 is elite \u2014 legitimate suppression risk even for power hitters",
+        "Atlanta implied total 3.5 \u2014 low-run environment reduces plate appearances and scoring context",
+        "xBA .240 vs season .293 AVG \u2014 some luck-driven component to recent hit rate",
+        "[auditor] BABIP .372 (Fangraphs) vs xBA .240 = +132 point elevation; elite pitcher Painter suppresses hit outcomes; regression on hit frequency reduces TB accrual floor"
+      ],
+      "platoon_note": "Olson bats L vs Painter R \u2014 Citizens Bank Park HR factor L 112 is a structural power boost for this matchup.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park: HR factor L/R 112/108 \u2014 strong LHH power park, meaningful TB ceiling boost.",
+      "weather_note": "43.2F, calm \u2014 cold weather minor concern but no wind suppression.",
+      "umpire_note": "D.J. Reyburn: neutral zone.",
+      "edge_strength": "5 signals aligned: 73% hist TB >1.5 rate, +2.27 projection delta, xSLG .572 + barrel 19.6%, hard hit 46.4%, LHH-friendly park (HR factor 112)",
+      "market_edge_type": "power_metrics",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 5,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Philadelphia Phillies",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 2.77 total bases, +2.27 above 0.5 line",
+          "name": "power_metrics",
+          "verdict": "not_found",
+          "reason": "No projection model provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "BABIP .372 (Fangraphs) vs xBA .240 = +132 point elevation; elite pitcher Painter suppresses hit outcomes; regression on hit frequency reduces TB accrual floor"
+      ],
+      "model_support_score": 2.27,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.45, watch >= 0.15 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+2.27)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+2.27) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Drake Baldwin",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_hits",
+      "line": 0.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": -150,
+      "edge_summary": "Baldwin has recorded a hit in 12 of his last 15 games (80%), a strong historical rate that anchors this Over case. His projection model calls for 1.56 hits (+1.06 above the 0.5 line), supported by solid Statcast quality: xBA .291, hard hit 43.7%, barrel% 14.1%. The main risk is a BABIP regression signal \u2014 recent BABIP .409 vs season .348 \u2014 but the underlying xBA and contact rate (82.3%) suggest the hit rate is real, not purely luck-driven.",
+      "key_stats": {
+        "hist_hit_rate_over05": 0.8,
+        "projected_hits": 1.56,
+        "projection_delta_vs_hit_line": 1.06,
+        "xba": ".291",
+        "hard_hit_pct": "43.7",
+        "barrel_pct": "14.1",
+        "contact_rate": 82.3,
+        "recent_babip": 0.409,
+        "season_babip": ".348",
+        "opp_pitcher_xfip": 2.96,
+        "team_implied_total": 3.5,
+        "game_total": 8.5,
+        "projected_total_bases": 2.14
+      },
+      "signals_for": [
+        "Hit O0.5 in 12/15 recent games (80%) \u2014 strong historical rate",
+        "xBA .291 \u2014 quality-of-contact supports sustainable hit rate",
+        "Contact rate 82.3% \u2014 reliably puts ball in play",
+        "hard hit% 43.7% + barrel% 14.1% \u2014 above-average power-contact blend",
+        "Citizens Bank Park hits factor 104 \u2014 slight hitter-friendly lean"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "quality_of_contact",
+        "contact_rate",
+        "power_metrics",
+        "park_factor"
+      ],
+      "conflicting_signals": [
+        "Andrew Painter xFIP 2.96 \u2014 elite pitcher, genuine suppression risk for any hitter",
+        "Recent BABIP .409 vs season .348 \u2014 +61 point overperformance, regression risk on hit rate",
+        "Atlanta implied total only 3.5 \u2014 low-run environment reduces plate appearance value",
+        "Bats L vs R Painter \u2014 no platoon split data available, unknown whether favorable",
+        "[auditor] Recent BABIP .409 vs season .348 is +61 point elevation; against elite Painter, regression risk is material for hit rate sustainability"
+      ],
+      "platoon_note": "Baldwin bats L vs Painter R \u2014 no split data provided, same matchup type as Olson/Smith.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park hits factor 104 \u2014 mild hitter-friendly lean.",
+      "weather_note": "43.2F, calm \u2014 cold weather minor concern.",
+      "umpire_note": "D.J. Reyburn: neutral zone.",
+      "edge_strength": "4 signals aligned: 80% historical rate, +1.06 projection delta, xBA .291, 82.3% contact rate",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 5,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Philadelphia Phillies",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 1.56 hits, +1.06 above 0.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No projection model provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Recent BABIP .409 vs season .348 is +61 point elevation; against elite Painter, regression risk is material for hit rate sustainability"
+      ],
+      "model_support_score": 1.06,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+1.06)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+1.06) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Trea Turner",
+      "team": "Philadelphia Phillies",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_hits",
+      "line": 1.5,
+      "recommendation": "Under",
+      "best_book": "betmgm",
+      "best_odds": 125,
+      "edge_summary": "Turner's projection model calls for 1.54 hits against a line of 1.5, a near-zero delta (+0.04) that offers no meaningful Over edge. More importantly, his hist_hit_rate_over15 is only 20% \u2014 he has cleared 2+ hits in just 3 of his last 15 games \u2014 making the Under the structural lean at this line. His Statcast profile is soft: xBA .241, xSLG .335, hard hit% only 29.7%, barrel% 3.1%, all pointing to a below-average quality-of-contact profile relative to the elevated 1.5 line.",
+      "key_stats": {
+        "hist_hit_rate_over15": 0.2,
+        "hist_hit_rate_over05": 0.87,
+        "projected_hits": 1.54,
+        "projection_delta_vs_hit_line": 0.04,
+        "xba": ".241",
+        "xslg": ".335",
+        "hard_hit_pct": "29.7",
+        "barrel_pct": "3.1",
+        "contact_rate": 80.5,
+        "recent_babip": 0.357,
+        "season_babip": ".317",
+        "team_implied_total": 5.0,
+        "game_total": 8.5,
+        "projected_total_bases": 1.4
+      },
+      "signals_for": [
+        "Hit >1.5 in only 3/15 recent games (20%) \u2014 weak historical rate at this line",
+        "xBA .241 \u2014 below-average expected contact quality",
+        "Hard hit% only 29.7% + barrel% 3.1% \u2014 weak power/contact metrics, unsustainable for 2-hit games",
+        "Recent BABIP .357 vs season .317 \u2014 slight overperformance, some regression risk"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "quality_of_contact",
+        "power_metrics",
+        "babip_regression"
+      ],
+      "conflicting_signals": [
+        "Turner hits O0.5 in 87% of games \u2014 very consistent hitter who reaches base often, raising the floor near 1 hit/game",
+        "Grant Holmes is a below-average pitcher (xFIP 4.53) \u2014 hitter-friendly matchup context",
+        "Philadelphia implied total 5.0 \u2014 solid run environment, more PA opportunities",
+        "Recent batting avg .304 shows genuine form",
+        "Projection guardrail: hits projection delta +0.04 offers only weak support for Under 1.5"
+      ],
+      "platoon_note": "Turner bats R vs Holmes R \u2014 same-side matchup, no platoon advantage or disadvantage flagged.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park hits factor 104 \u2014 slight hitter-friendly lean, mild headwind for Under but not decisive.",
+      "weather_note": "43.2F, calm \u2014 cold weather mild negative for offense.",
+      "umpire_note": "D.J. Reyburn: neutral zone.",
+      "edge_strength": "4 signals aligned: 20% hist rate over 1.5, near-zero projection delta, xBA .241, hard hit 29.7%/barrel 3.1%",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Speculative",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Atlanta Braves",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projection delta vs 1.5 line is near-zero (+0.04) \u2014 no meaningful model Over edge",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No projection model provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [],
+      "model_support_score": 0.04,
+      "model_support_bucket": "weak",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "projection_guardrail_note": "Projection guardrail: hits projection delta +0.04 offers only weak support for Under 1.5",
+      "decision_context": [
+        "Model support weak (+0.04)",
+        "Projection guardrail: hits projection delta +0.04 offers only weak support for Under 1.5",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support weak (+0.04) | Projection guardrail: hits projection delta +0.04 offers only weak support for Under 1.5 | Data completeness 100%"
+    },
+    {
+      "player": "Dominic Smith",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_total_bases",
+      "line": 1.5,
+      "recommendation": "Over",
+      "best_book": "draftkings",
+      "best_odds": 105,
+      "edge_summary": "Smith projects 2.29 total bases (+0.79 above the 1.5 line), supported by excellent Statcast metrics: xBA .349, xSLG .578, barrel% 9.5%, and a league-best contact rate of 88.0%. He has recorded 1.5+ TB in 7 of his last 15 games (47%) with a season SLG of .667 \u2014 a strong power profile at this line. The main risk is Painter's elite xFIP and the suppressed Atlanta team total of 3.5.",
+      "key_stats": {
+        "hist_tb_rate_over15": 0.47,
+        "projected_total_bases": 2.29,
+        "projection_delta_vs_tb_line": 0.79,
+        "xba": ".349",
+        "xslg": ".578",
+        "barrel_pct": "9.5",
+        "hard_hit_pct": "38.1",
+        "contact_rate": 88.0,
+        "season_slg": ".667",
+        "opp_pitcher_xfip": 2.96,
+        "team_implied_total": 3.5,
+        "game_total": 8.5,
+        "projected_hits": 1.6,
+        "projection_delta_vs_hit_line": 0.1
+      },
+      "signals_for": [
+        "TB >1.5 in 7/15 recent games (47%) \u2014 above-average rate at this line",
+        "xBA .349 + xSLG .578 \u2014 elite expected contact quality",
+        "Contact rate 88.0% \u2014 among the highest in the slate, nearly always in play",
+        "Barrel% 9.5% \u2014 above 8% power threshold for sustainable TB ceiling",
+        "Season SLG .667 \u2014 confirms true extra-base power output"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "quality_of_contact",
+        "contact_rate",
+        "power_metrics",
+        "quality_of_contact"
+      ],
+      "conflicting_signals": [
+        "Andrew Painter xFIP 2.96 \u2014 elite suppressive arm, can neutralize power hitters",
+        "Atlanta team implied total 3.5 \u2014 low-run environment, fewer opportunities to accumulate bases",
+        "Hard hit% 38.1% is modest relative to xBA/xSLG suggesting some gap between quality and outcomes"
+      ],
+      "platoon_note": "Smith bats L vs Painter R \u2014 Citizens Bank Park HR factor L 112 is a structural power boost.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park HR factor L 112 \u2014 meaningful LHH power boost for TB ceiling.",
+      "weather_note": "43.2F, calm \u2014 cold weather minor concern.",
+      "umpire_note": "D.J. Reyburn: neutral zone.",
+      "edge_strength": "4 signals aligned: 47% hist TB >1.5, +0.79 projection delta, xBA .349/xSLG .578, 88% contact rate",
+      "market_edge_type": "power_metrics",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 5,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Philadelphia Phillies",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 2.29 total bases, +0.79 above 1.5 line",
+          "name": "power_metrics",
+          "verdict": "not_found",
+          "reason": "No projection model provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [],
+      "model_support_score": 0.79,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.45, watch >= 0.15 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+0.79)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+0.79) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Bryce Harper",
+      "team": "Philadelphia Phillies",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_hits",
+      "line": 0.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": -140,
+      "edge_summary": "Harper projects 1.52 hits (+1.02 above the 0.5 line) with a 67% historical hit rate over 0.5 in his last 15 games. His xBA .281 and hard hit% 41.7% support sustainable production, and he faces a below-average Holmes (xFIP 4.53) with a favorable hitter-friendly park context. The BABIP regression signal (recent .378 vs season .286) is the primary risk, but his underlying Statcast quality suggests the recent form has genuine basis.",
+      "key_stats": {
+        "hist_hit_rate_over05": 0.67,
+        "projected_hits": 1.52,
+        "projection_delta_vs_hit_line": 1.02,
+        "xba": ".281",
+        "hard_hit_pct": "41.7",
+        "barrel_pct": "15",
+        "contact_rate": 83.3,
+        "recent_babip": 0.378,
+        "season_babip": ".286",
+        "opp_pitcher_xfip": 4.53,
+        "team_implied_total": 5.0,
+        "game_total": 8.5,
+        "projected_total_bases": 2.71
+      },
+      "signals_for": [
+        "Hit O0.5 in 10/15 recent games (67%) \u2014 above-average historical rate",
+        "xBA .281 + hard hit% 41.7% \u2014 quality-of-contact supports hit rate",
+        "Grant Holmes xFIP 4.53 \u2014 below-average pitcher, favorable matchup",
+        "Philadelphia implied total 5.0 \u2014 solid run environment, full PA complement",
+        "Citizens Bank Park hits factor 104 \u2014 mild hitter-friendly lean"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "quality_of_contact",
+        "opposing_pitcher_form",
+        "implied_total",
+        "park_factor"
+      ],
+      "conflicting_signals": [
+        "Recent BABIP .378 vs season .286 \u2014 +92 points overperformance, meaningful regression risk on hit rate",
+        "Hist hit rate over 1.5 only 33% \u2014 2-hit games are uncommon, value here is at 0.5 only",
+        "Harper bats L vs Holmes R \u2014 no platoon split data provided",
+        "[auditor] Recent BABIP .378 vs season .286 represents +92 point elevation; regression toward true talent is material risk for hit rate on this low-line prop"
+      ],
+      "platoon_note": "Harper bats L vs Holmes R \u2014 Citizens Bank Park HR factor L 112, favorable power context.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park hits factor 104, HR factor L 112 \u2014 hitter-friendly environment.",
+      "weather_note": "43.2F, calm \u2014 cold weather minor concern but no wind factor.",
+      "umpire_note": "D.J. Reyburn: neutral zone.",
+      "edge_strength": "4 signals aligned: 67% historical rate, +1.02 projection delta, xBA .281/hard hit 41.7%, Holmes xFIP 4.53",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 5,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Atlanta Braves",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 1.52 hits, +1.02 above 0.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No projection model provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Recent BABIP .378 vs season .286 represents +92 point elevation; regression toward true talent is material risk for hit rate on this low-line prop"
+      ],
+      "model_support_score": 1.02,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+1.02)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+1.02) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Kyle Schwarber",
+      "team": "Philadelphia Phillies",
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "prop_type": "batter_hits",
+      "line": 1.5,
+      "recommendation": "Under",
+      "best_book": "draftkings",
+      "best_odds": -125,
+      "edge_summary": "Schwarber's projection model calls for only 0.92 hits against a 1.5 line (-0.58 delta), and his historical rate over 1.5 is just 13% \u2014 he has cleared 2 hits in only 2 of his last 15 games. His contact rate of 63.6% is the lowest in this slate, making multi-hit games structurally unlikely regardless of his power ceiling. The hits Under is the durable, non-lucky signal here despite his overall offensive quality.",
+      "key_stats": {
+        "hist_hit_rate_over15": 0.13,
+        "hist_hit_rate_over05": 0.67,
+        "projected_hits": 0.92,
+        "projection_delta_vs_hit_line": -0.58,
+        "contact_rate": 63.6,
+        "xba": ".224",
+        "season_avg": ".222",
+        "k_rate_implied": "high",
+        "team_implied_total": 5.0,
+        "game_total": 8.5,
+        "projected_total_bases": 2.44
+      },
+      "signals_for": [
+        "Hit >1.5 in only 2/15 recent games (13%) \u2014 very weak historical rate at this line",
+        "Contact rate 63.6% \u2014 lowest in slate, structural K risk in multi-hit game",
+        "xBA .224 \u2014 below-average expected contact quality",
+        "Season avg only .222 \u2014 confirms low hit-rate baseline"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "contact_rate",
+        "quality_of_contact",
+        "quality_of_contact"
+      ],
+      "conflicting_signals": [
+        "Schwarber is a legitimate power hitter (barrel% 25.6%, xSLG .522) \u2014 a single extra-base hit + single in one game easily clears 1.5",
+        "Grant Holmes is a below-average pitcher (xFIP 4.53) \u2014 elevated hit probability per plate appearance",
+        "Philadelphia implied total 5.0 \u2014 he should get 4+ PA, maximizing at-bats",
+        "Citizens Bank Park HR factor L 112 \u2014 when he does connect, extra-base outcomes likely",
+        "[auditor] Contact rate 63.6% combined with xBA .224 means base hits are structurally depressed; 36.4% K rate makes 2-hit games (>1.5) unlikely even with elite power profile"
+      ],
+      "platoon_note": "Schwarber bats L vs Holmes R \u2014 park favors LHH power, but that's TB-relevant, not hits volume.",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Citizens Bank Park hits factor 104 \u2014 mild hitter-friendly lean works slightly against Under.",
+      "weather_note": "43.2F, calm \u2014 cold weather minor negative for offense.",
+      "umpire_note": "D.J. Reyburn: neutral zone.",
+      "edge_strength": "4 signals aligned: 13% hist rate >1.5, -0.58 projection delta, 63.6% contact rate, xBA .224",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_verified": true,
+      "opposing_team": "Atlanta Braves",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 0.92 hits, -0.58 below 1.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No projection model provided. Cannot verify external projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Contact rate 63.6% combined with xBA .224 means base hits are structurally depressed; 36.4% K rate makes 2-hit games (>1.5) unlikely even with elite power profile"
+      ],
+      "model_support_score": -0.58,
+      "model_support_bucket": "weak",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support weak (-0.58)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support weak (-0.58) | Projection guardrail passed | Data completeness 100%"
+    }
+  ],
+  "summary": {
+    "games_today": 1,
+    "props_analyzed": 170,
+    "props_flagged": 8,
+    "generated_at": "2026-04-19T00:00:00Z"
+  },
+  "removed_props": [],
+  "suggested_parlays": [
+    {
+      "type": "sgp",
+      "type_label": "Same Game Parlay",
+      "legs": [
+        {
+          "player": "Matt Olson",
+          "team": "Atlanta Braves",
+          "prop_display": "Total Bases Over 0.5",
+          "prop_type": "batter_total_bases",
+          "line": 0.5,
+          "recommendation": "Over",
+          "best_odds": -115,
+          "confidence": "Medium",
+          "is_connector": false
+        },
+        {
+          "player": "Dominic Smith",
+          "team": "Atlanta Braves",
+          "prop_display": "Total Bases Over 1.5",
+          "prop_type": "batter_total_bases",
+          "line": 1.5,
+          "recommendation": "Over",
+          "best_odds": 105,
+          "confidence": "Medium",
+          "is_connector": false
+        },
+        {
+          "player": "Bryson Stott",
+          "team": "",
+          "prop_display": "Hits Over 0.5",
+          "prop_type": "batter_hits",
+          "line": 0.5,
+          "recommendation": "Over",
+          "best_odds": -168,
+          "confidence": "63% implied",
+          "is_connector": true
+        }
+      ],
+      "combined_odds": "+511",
+      "combined_decimal": 6.11,
+      "combined_edge": "22.4% vs 16.4% implied",
+      "parlay_edge_pct": 6.0,
+      "reasoning": "Same-game parlay anchored by Matt Olson + Dominic Smith edges. Bryson Stott Hits added as a high-probability connector (63% implied) that fits the game script.",
+      "confidence": "Medium"
+    },
+    {
+      "type": "sgp",
+      "type_label": "Same Game Parlay",
+      "legs": [
+        {
+          "player": "Grant Holmes",
+          "team": "Atlanta Braves",
+          "prop_display": "Strikeouts Under 5.5",
+          "prop_type": "pitcher_strikeouts",
+          "line": 5.5,
+          "recommendation": "Under",
+          "best_odds": -154,
+          "confidence": "Medium",
+          "is_connector": false
+        },
+        {
+          "player": "Kyle Schwarber",
+          "team": "Philadelphia Phillies",
+          "prop_display": "Hits Under 1.5",
+          "prop_type": "batter_hits",
+          "line": 1.5,
+          "recommendation": "Under",
+          "best_odds": -125,
+          "confidence": "Medium",
+          "is_connector": false
+        },
+        {
+          "player": "Mike Yastrzemski",
+          "team": "",
+          "prop_display": "Hits Under 0.5",
+          "prop_type": "batter_hits",
+          "line": 0.5,
+          "recommendation": "Under",
+          "best_odds": -154,
+          "confidence": "61% implied",
+          "is_connector": true
+        }
+      ],
+      "combined_odds": "+390",
+      "combined_decimal": 4.9,
+      "combined_edge": "21.6% vs 20.4% implied",
+      "parlay_edge_pct": 1.2,
+      "reasoning": "Same-game parlay anchored by Grant Holmes + Kyle Schwarber edges. Mike Yastrzemski Hits added as a high-probability connector (61% implied) that fits the game script.",
+      "confidence": "Medium"
+    }
+  ]
+}
