@@ -775,13 +775,33 @@
     "away_team": "Toronto Blue Jays",
     "venue": "Angel Stadium",
     "commence_time": "2026-04-22T01:38:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Zach Neto",
+      "Mike Trout",
+      "Jo Adell",
+      "Jorge Soler",
+      "Oswald Peraza",
+      "Nolan Schanuel",
+      "Vaughn Grissom",
+      "Logan O'Hoppe",
+      "Bryce Teodosio"
+    ],
+    "away_lineup": [
+      "Nathan Lukes",
+      "Ernie Clement",
+      "Vladimir Guerrero Jr.",
+      "Jes\u00fas S\u00e1nchez",
+      "Eloy Jim\u00e9nez",
+      "Daulton Varsho",
+      "Kazuma Okamoto",
+      "Andr\u00e9s Gim\u00e9nez",
+      "Brandon Valenzuela"
+    ],
     "home_pitcher": "Jack Kochanowicz",
     "away_pitcher": "Patrick Corbin",
-    "hp_umpire": null,
+    "hp_umpire": "Chad Fairchild",
     "weather": {
       "venue": "Angel Stadium",
       "temperature_f": 55.6,
@@ -808,7 +828,16 @@
       "so_factor": 100,
       "so_context": "Neutral for Ks (SO factor 100)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Chad Fairchild",
+      "games_graded": 312,
+      "overall_accuracy": 93.09,
+      "accuracy_above_expected": 0.451,
+      "avg_run_impact_per_game": 1.44,
+      "weighted_score": 79.25,
+      "zone_tendency": "neutral",
+      "umpire_note": "Chad Fairchild: 93.1% accuracy over 312 games (above expected). Avg run impact: 1.44/game. Zone: neutral."
+    }
   },
   "823148": {
     "game_id": "823148",
@@ -937,7 +966,7 @@
     "venue": "Oracle Park",
     "commence_time": "2026-04-22T01:45:00Z",
     "home_lineup_confirmed": true,
-    "away_lineup_confirmed": false,
+    "away_lineup_confirmed": true,
     "home_lineup": [
       "Willy Adames",
       "Luis Arraez",
@@ -949,7 +978,17 @@
       "Drew Gilbert",
       "Patrick Bailey"
     ],
-    "away_lineup": [],
+    "away_lineup": [
+      "Shohei Ohtani",
+      "Kyle Tucker",
+      "Freddie Freeman",
+      "Teoscar Hern\u00e1ndez",
+      "Max Muncy",
+      "Dalton Rushing",
+      "Hyeseong Kim",
+      "Alex Call",
+      "Alex Freeland"
+    ],
     "home_pitcher": "Landen Roupp",
     "away_pitcher": "Yoshinobu Yamamoto",
     "hp_umpire": "Junior Valentine",
