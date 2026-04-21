@@ -5,21 +5,41 @@
     "away_team": "Houston Astros",
     "venue": "Progressive Field",
     "commence_time": "2026-04-21T22:10:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Steven Kwan",
+      "Chase DeLauter",
+      "Jos\u00e9 Ram\u00edrez",
+      "Kyle Manzardo",
+      "George Valera",
+      "Daniel Schneemann",
+      "Angel Mart\u00ednez",
+      "Austin Hedges",
+      "Brayan Rocchio"
+    ],
+    "away_lineup": [
+      "Carlos Correa",
+      "Yordan Alvarez",
+      "Jose Altuve",
+      "Christian Walker",
+      "Isaac Paredes",
+      "Cam Smith",
+      "Yainer Diaz",
+      "Brice Matthews",
+      "Dustin Harris"
+    ],
     "home_pitcher": "Parker Messick",
     "away_pitcher": "Ryan Weiss",
-    "hp_umpire": null,
+    "hp_umpire": "Derek Thomas",
     "weather": {
       "venue": "Progressive Field",
-      "temperature_f": 62.2,
-      "wind_speed_mph": 7.9,
+      "temperature_f": 60.4,
+      "wind_speed_mph": 6.0,
       "wind_direction": "S",
-      "wind_direction_deg": 195,
-      "precipitation_probability": 17,
-      "hr_wind_impact": "crosswind_7mph_neutral"
+      "wind_direction_deg": 182,
+      "precipitation_probability": 26,
+      "hr_wind_impact": "crosswind_6mph_neutral"
     },
     "park_factors": {
       "runs": 98,
@@ -38,7 +58,16 @@
       "so_factor": 101,
       "so_context": "Neutral for Ks (SO factor 101)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Derek Thomas",
+      "games_graded": 75,
+      "overall_accuracy": 95.49,
+      "accuracy_above_expected": 1.78,
+      "avg_run_impact_per_game": 0.96,
+      "weighted_score": 131.25,
+      "zone_tendency": "tight_zone",
+      "umpire_note": "Derek Thomas: 95.5% accuracy over 75 games (above expected). Avg run impact: 0.96/game. Zone: tight zone."
+    }
   },
   "822995": {
     "game_id": "822995",
@@ -46,19 +75,39 @@
     "away_team": "Cincinnati Reds",
     "venue": "Tropicana Field",
     "commence_time": "2026-04-21T22:40:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Chandler Simpson",
+      "Junior Caminero",
+      "Jonathan Aranda",
+      "Yandy D\u00edaz",
+      "Jake Fraley",
+      "Cedric Mullins",
+      "Richie Palacios",
+      "Hunter Feduccia",
+      "Taylor Walls"
+    ],
+    "away_lineup": [
+      "Dane Myers",
+      "Matt McLain",
+      "Elly De La Cruz",
+      "Sal Stewart",
+      "Eugenio Su\u00e1rez",
+      "Spencer Steer",
+      "Tyler Stephenson",
+      "Rece Hinds",
+      "Ke'Bryan Hayes"
+    ],
     "home_pitcher": "Steven Matz",
     "away_pitcher": "Chase Burns",
-    "hp_umpire": null,
+    "hp_umpire": "Tripp Gibson",
     "weather": {
       "venue": "Tropicana Field",
-      "temperature_f": 71.3,
-      "wind_speed_mph": 18.4,
+      "temperature_f": 71.4,
+      "wind_speed_mph": 17.3,
       "wind_direction": "E",
-      "wind_direction_deg": 85,
+      "wind_direction_deg": 84,
       "precipitation_probability": 0,
       "hr_wind_impact": "roof_closed_weather_neutral"
     },
@@ -79,7 +128,16 @@
       "so_factor": 101,
       "so_context": "Neutral for Ks (SO factor 101)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Tripp Gibson",
+      "games_graded": 314,
+      "overall_accuracy": 93.85,
+      "accuracy_above_expected": 1.053,
+      "avg_run_impact_per_game": 1.27,
+      "weighted_score": 112.65,
+      "zone_tendency": "neutral",
+      "umpire_note": "Tripp Gibson: 93.8% accuracy over 314 games (above expected). Avg run impact: 1.27/game. Zone: neutral."
+    }
   },
   "823880": {
     "game_id": "823880",
@@ -87,19 +145,39 @@
     "away_team": "St. Louis Cardinals",
     "venue": "loanDepot park",
     "commence_time": "2026-04-21T22:40:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Jakob Marsee",
+      "Kyle Stowers",
+      "Otto Lopez",
+      "Xavier Edwards",
+      "Liam Hicks",
+      "Agust\u00edn Ram\u00edrez",
+      "Owen Caissie",
+      "Graham Pauley",
+      "Connor Norby"
+    ],
+    "away_lineup": [
+      "JJ Wetherholt",
+      "Iv\u00e1n Herrera",
+      "Alec Burleson",
+      "Jordan Walker",
+      "Nolan Gorman",
+      "Masyn Winn",
+      "Nathan Church",
+      "Pedro Pag\u00e9s",
+      "Victor Scott II"
+    ],
     "home_pitcher": "Chris Paddack",
     "away_pitcher": "Dustin May",
-    "hp_umpire": null,
+    "hp_umpire": "Manny Gonzalez",
     "weather": {
       "venue": "loanDepot park",
-      "temperature_f": 67.0,
+      "temperature_f": 70.6,
       "wind_speed_mph": 8.4,
       "wind_direction": "NE",
-      "wind_direction_deg": 44,
+      "wind_direction_deg": 58,
       "precipitation_probability": 0,
       "hr_wind_impact": "roof_closed_weather_neutral"
     },
@@ -120,7 +198,16 @@
       "so_factor": 104,
       "so_context": "Neutral for Ks (SO factor 104)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Manny Gonzalez",
+      "games_graded": 302,
+      "overall_accuracy": 93.16,
+      "accuracy_above_expected": 0.587,
+      "avg_run_impact_per_game": 1.41,
+      "weighted_score": 74.85,
+      "zone_tendency": "neutral",
+      "umpire_note": "Manny Gonzalez: 93.2% accuracy over 302 games (above expected). Avg run impact: 1.41/game. Zone: neutral."
+    }
   },
   "824290": {
     "game_id": "824290",
@@ -128,21 +215,41 @@
     "away_team": "Milwaukee Brewers",
     "venue": "Comerica Park",
     "commence_time": "2026-04-21T22:40:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Jahmai Jones",
+      "Gleyber Torres",
+      "Kevin McGonigle",
+      "Matt Vierling",
+      "Dillon Dingler",
+      "Riley Greene",
+      "Spencer Torkelson",
+      "Hao-Yu  Lee",
+      "Javier B\u00e1ez"
+    ],
+    "away_lineup": [
+      "Brice Turang",
+      "William Contreras",
+      "Jake Bauers",
+      "Gary S\u00e1nchez",
+      "Garrett Mitchell",
+      "Luis Rengifo",
+      "Sal Frelick",
+      "David Hamilton",
+      "Blake Perkins"
+    ],
     "home_pitcher": "Keider Montero",
     "away_pitcher": "Kyle Harrison",
-    "hp_umpire": null,
+    "hp_umpire": "Emil Jimenez",
     "weather": {
       "venue": "Comerica Park",
-      "temperature_f": 63.0,
-      "wind_speed_mph": 7.4,
+      "temperature_f": 61.5,
+      "wind_speed_mph": 4.1,
       "wind_direction": "W",
-      "wind_direction_deg": 256,
-      "precipitation_probability": 34,
-      "hr_wind_impact": "crosswind_7mph_neutral"
+      "wind_direction_deg": 261,
+      "precipitation_probability": 32,
+      "hr_wind_impact": "calm_neutral"
     },
     "park_factors": {
       "runs": 95,
@@ -161,7 +268,16 @@
       "so_factor": 103,
       "so_context": "Neutral for Ks (SO factor 103)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Emil Jimenez",
+      "games_graded": 90,
+      "overall_accuracy": 93.94,
+      "accuracy_above_expected": 0.598,
+      "avg_run_impact_per_game": 1.22,
+      "weighted_score": 103.8,
+      "zone_tendency": "neutral",
+      "umpire_note": "Emil Jimenez: 93.9% accuracy over 90 games (above expected). Avg run impact: 1.22/game. Zone: neutral."
+    }
   },
   "822747": {
     "game_id": "822747",
@@ -169,21 +285,41 @@
     "away_team": "Atlanta Braves",
     "venue": "Nationals Park",
     "commence_time": "2026-04-21T22:45:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "James Wood",
+      "Luis Garc\u00eda Jr.",
+      "Jacob Young",
+      "CJ Abrams",
+      "Daylen Lile",
+      "Nasim Nu\u00f1ez",
+      "Jorbit Vivas",
+      "Jos\u00e9 Tena",
+      "Drew Millas"
+    ],
+    "away_lineup": [
+      "Ronald Acu\u00f1a Jr.",
+      "Drake Baldwin",
+      "Ozzie Albies",
+      "Matt Olson",
+      "Austin Riley",
+      "Mauricio Dub\u00f3n",
+      "Michael Harris II",
+      "Jonah Heim",
+      "Eli White"
+    ],
     "home_pitcher": "Foster Griffin",
     "away_pitcher": "Reynaldo L\u00f3pez",
-    "hp_umpire": null,
+    "hp_umpire": "Laz Diaz",
     "weather": {
       "venue": "Nationals Park",
-      "temperature_f": 52.4,
-      "wind_speed_mph": 11.6,
+      "temperature_f": 51.5,
+      "wind_speed_mph": 9.9,
       "wind_direction": "SE",
-      "wind_direction_deg": 131,
+      "wind_direction_deg": 128,
       "precipitation_probability": 1,
-      "hr_wind_impact": "wind_in_11mph_hr_suppressed"
+      "hr_wind_impact": "crosswind_9mph_neutral"
     },
     "park_factors": {
       "runs": 98,
@@ -202,7 +338,16 @@
       "so_factor": 100,
       "so_context": "Neutral for Ks (SO factor 100)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Laz Diaz",
+      "games_graded": 313,
+      "overall_accuracy": 91.78,
+      "accuracy_above_expected": -0.768,
+      "avg_run_impact_per_game": 1.64,
+      "weighted_score": 23.9,
+      "zone_tendency": "loose_zone",
+      "umpire_note": "Laz Diaz: 91.8% accuracy over 313 games (below expected). Avg run impact: 1.64/game. Zone: loose zone."
+    }
   },
   "824773": {
     "game_id": "824773",
@@ -210,21 +355,41 @@
     "away_team": "New York Yankees",
     "venue": "Fenway Park",
     "commence_time": "2026-04-21T22:45:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Roman Anthony",
+      "Willson Contreras",
+      "Masataka Yoshida",
+      "Wilyer Abreu",
+      "Trevor Story",
+      "Ceddanne Rafaela",
+      "Marcelo Mayer",
+      "Caleb Durbin",
+      "Carlos Narv\u00e1ez"
+    ],
+    "away_lineup": [
+      "Amed Rosario",
+      "Aaron Judge",
+      "Ben Rice",
+      "Giancarlo Stanton",
+      "Cody Bellinger",
+      "Randal Grichuk",
+      "Jazz Chisholm Jr.",
+      "Jos\u00e9 Caballero",
+      "Austin Wells"
+    ],
     "home_pitcher": "Connelly Early",
     "away_pitcher": "Luis Gil",
-    "hp_umpire": null,
+    "hp_umpire": "Austin Jones",
     "weather": {
       "venue": "Fenway Park",
-      "temperature_f": 37.2,
-      "wind_speed_mph": 7.1,
-      "wind_direction": "SE",
-      "wind_direction_deg": 145,
-      "precipitation_probability": 2,
-      "hr_wind_impact": "crosswind_7mph_neutral"
+      "temperature_f": 37.3,
+      "wind_speed_mph": 6.5,
+      "wind_direction": "S",
+      "wind_direction_deg": 164,
+      "precipitation_probability": 1,
+      "hr_wind_impact": "crosswind_6mph_neutral"
     },
     "park_factors": {
       "runs": 105,
@@ -243,7 +408,16 @@
       "so_factor": 101,
       "so_context": "Neutral for Ks (SO factor 101)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Austin Jones",
+      "games_graded": 37,
+      "overall_accuracy": 94.84,
+      "accuracy_above_expected": 1.562,
+      "avg_run_impact_per_game": 1.13,
+      "weighted_score": 131.1,
+      "zone_tendency": "tight_zone",
+      "umpire_note": "Austin Jones: 94.8% accuracy over 37 games (above expected). Avg run impact: 1.13/game. Zone: tight zone."
+    }
   },
   "823640": {
     "game_id": "823640",
@@ -251,21 +425,41 @@
     "away_team": "Minnesota Twins",
     "venue": "Citi Field",
     "commence_time": "2026-04-21T23:10:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Marcus Semien",
+      "Francisco Lindor",
+      "Luis Robert Jr.",
+      "Bo Bichette",
+      "MJ Melendez",
+      "Francisco Alvarez",
+      "Brett Baty",
+      "Mark Vientos",
+      "Carson Benge"
+    ],
+    "away_lineup": [
+      "Byron Buxton",
+      "Trevor Larnach",
+      "Josh Bell",
+      "Ryan Jeffers",
+      "Kody Clemens",
+      "Luke Keaschall",
+      "Matt Wallner",
+      "Royce Lewis",
+      "Brooks Lee"
+    ],
     "home_pitcher": "Nolan McLean",
     "away_pitcher": "Simeon Woods Richardson",
-    "hp_umpire": null,
+    "hp_umpire": "Ryan Additon",
     "weather": {
       "venue": "Citi Field",
-      "temperature_f": 44.9,
-      "wind_speed_mph": 9.3,
+      "temperature_f": 43.7,
+      "wind_speed_mph": 7.7,
       "wind_direction": "S",
       "wind_direction_deg": 170,
-      "precipitation_probability": 14,
-      "hr_wind_impact": "crosswind_9mph_neutral"
+      "precipitation_probability": 7,
+      "hr_wind_impact": "crosswind_7mph_neutral"
     },
     "park_factors": {
       "runs": 97,
@@ -284,7 +478,16 @@
       "so_factor": 103,
       "so_context": "Neutral for Ks (SO factor 103)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Ryan Additon",
+      "games_graded": 207,
+      "overall_accuracy": 93.62,
+      "accuracy_above_expected": 0.409,
+      "avg_run_impact_per_game": 1.3,
+      "weighted_score": 84.5,
+      "zone_tendency": "neutral",
+      "umpire_note": "Ryan Additon: 93.6% accuracy over 207 games (above expected). Avg run impact: 1.30/game. Zone: neutral."
+    }
   },
   "824127": {
     "game_id": "824127",
@@ -292,19 +495,39 @@
     "away_team": "Baltimore Orioles",
     "venue": "Kauffman Stadium",
     "commence_time": "2026-04-21T23:40:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Maikel Garcia",
+      "Bobby Witt Jr.",
+      "Vinnie Pasquantino",
+      "Salvador Perez",
+      "Carter Jensen",
+      "Michael Massey",
+      "Jac Caglianone",
+      "Isaac Collins",
+      "Kyle Isbel"
+    ],
+    "away_lineup": [
+      "Taylor Ward",
+      "Gunnar Henderson",
+      "Adley Rutschman",
+      "Pete Alonso",
+      "Jeremiah Jackson",
+      "Weston Wilson",
+      "Leody Taveras",
+      "Coby Mayo",
+      "Blaze Alexander"
+    ],
     "home_pitcher": "Kris Bubic",
     "away_pitcher": "Shane Baz",
-    "hp_umpire": null,
+    "hp_umpire": "Brock Ballou",
     "weather": {
       "venue": "Kauffman Stadium",
-      "temperature_f": 65.7,
-      "wind_speed_mph": 14.1,
+      "temperature_f": 63.5,
+      "wind_speed_mph": 14.0,
       "wind_direction": "SW",
-      "wind_direction_deg": 209,
+      "wind_direction_deg": 211,
       "precipitation_probability": 0,
       "hr_wind_impact": "wind_out_14mph_hr_boost"
     },
@@ -325,7 +548,16 @@
       "so_factor": 104,
       "so_context": "Neutral for Ks (SO factor 104)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Brock Ballou",
+      "games_graded": 59,
+      "overall_accuracy": 94.42,
+      "accuracy_above_expected": 1.171,
+      "avg_run_impact_per_game": 1.18,
+      "weighted_score": 118.45,
+      "zone_tendency": "neutral",
+      "umpire_note": "Brock Ballou: 94.4% accuracy over 59 games (above expected). Avg run impact: 1.18/game. Zone: neutral."
+    }
   },
   "824690": {
     "game_id": "824690",
@@ -333,21 +565,41 @@
     "away_team": "Philadelphia Phillies",
     "venue": "Wrigley Field",
     "commence_time": "2026-04-21T23:40:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Nico Hoerner",
+      "Alex Bregman",
+      "Ian Happ",
+      "Seiya Suzuki",
+      "Carson Kelly",
+      "Michael Busch",
+      "Dansby Swanson",
+      "Matt Shaw",
+      "Pete Crow-Armstrong"
+    ],
+    "away_lineup": [
+      "Trea Turner",
+      "Kyle Schwarber",
+      "Bryce Harper",
+      "Felix Reyes",
+      "Adolis Garc\u00eda",
+      "J.T. Realmuto",
+      "Alec Bohm",
+      "Brandon Marsh",
+      "Edmundo Sosa"
+    ],
     "home_pitcher": "Shota Imanaga",
     "away_pitcher": "Jes\u00fas Luzardo",
-    "hp_umpire": null,
+    "hp_umpire": "Vic Carapazza",
     "weather": {
       "venue": "Wrigley Field",
-      "temperature_f": 54.1,
-      "wind_speed_mph": 4.4,
-      "wind_direction": "SE",
-      "wind_direction_deg": 156,
-      "precipitation_probability": 2,
-      "hr_wind_impact": "calm_neutral"
+      "temperature_f": 59.5,
+      "wind_speed_mph": 5.9,
+      "wind_direction": "W",
+      "wind_direction_deg": 259,
+      "precipitation_probability": 1,
+      "hr_wind_impact": "crosswind_5mph_neutral"
     },
     "park_factors": {
       "runs": 103,
@@ -366,7 +618,16 @@
       "so_factor": 100,
       "so_context": "Neutral for Ks (SO factor 100)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Vic Carapazza",
+      "games_graded": 321,
+      "overall_accuracy": 93.36,
+      "accuracy_above_expected": 0.672,
+      "avg_run_impact_per_game": 1.37,
+      "weighted_score": 87.85000000000001,
+      "zone_tendency": "neutral",
+      "umpire_note": "Vic Carapazza: 93.4% accuracy over 321 games (above expected). Avg run impact: 1.37/game. Zone: neutral."
+    }
   },
   "822914": {
     "game_id": "822914",
@@ -374,20 +635,40 @@
     "away_team": "Pittsburgh Pirates",
     "venue": "Globe Life Field",
     "commence_time": "2026-04-22T00:05:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
-    "home_pitcher": null,
-    "away_pitcher": null,
-    "hp_umpire": null,
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Brandon Nimmo",
+      "Wyatt Langford",
+      "Corey Seager",
+      "Jake Burger",
+      "Joc Pederson",
+      "Josh Jung",
+      "Evan Carter",
+      "Danny Jansen",
+      "Josh Smith"
+    ],
+    "away_lineup": [
+      "Oneil Cruz",
+      "Ryan O'Hearn",
+      "Bryan Reynolds",
+      "Marcell Ozuna",
+      "Nick Yorke",
+      "Spencer Horwitz",
+      "Nick Gonzales",
+      "Konnor Griffin",
+      "Henry Davis"
+    ],
+    "home_pitcher": "Kumar Rocker",
+    "away_pitcher": "Carmen Mlodzinski",
+    "hp_umpire": "Mark Ripperger",
     "weather": {
       "venue": "Globe Life Field",
       "temperature_f": 61.2,
-      "wind_speed_mph": 4.6,
-      "wind_direction": "SE",
-      "wind_direction_deg": 151,
-      "precipitation_probability": 8,
+      "wind_speed_mph": 4.8,
+      "wind_direction": "S",
+      "wind_direction_deg": 158,
+      "precipitation_probability": 3,
       "hr_wind_impact": "roof_closed_weather_neutral"
     },
     "park_factors": {
@@ -407,7 +688,16 @@
       "so_factor": 103,
       "so_context": "Neutral for Ks (SO factor 103)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Mark Ripperger",
+      "games_graded": 314,
+      "overall_accuracy": 93.72,
+      "accuracy_above_expected": 1.182,
+      "avg_run_impact_per_game": 1.25,
+      "weighted_score": 116.80000000000001,
+      "zone_tendency": "neutral",
+      "umpire_note": "Mark Ripperger: 93.7% accuracy over 314 games (above expected). Avg run impact: 1.25/game. Zone: neutral."
+    }
   },
   "824369": {
     "game_id": "824369",
@@ -415,21 +705,41 @@
     "away_team": "San Diego Padres",
     "venue": "Coors Field",
     "commence_time": "2026-04-22T00:40:00Z",
-    "home_lineup_confirmed": false,
-    "away_lineup_confirmed": false,
-    "home_lineup": [],
-    "away_lineup": [],
-    "home_pitcher": null,
+    "home_lineup_confirmed": true,
+    "away_lineup_confirmed": true,
+    "home_lineup": [
+      "Edouard Julien",
+      "Mickey Moniak",
+      "Hunter Goodman",
+      "TJ Rumfield",
+      "Troy Johnston",
+      "Ezequiel Tovar",
+      "Kyle Karros",
+      "Jordan Beck",
+      "Brenton Doyle"
+    ],
+    "away_lineup": [
+      "Ram\u00f3n Laureano",
+      "Fernando Tatis Jr.",
+      "Jackson Merrill",
+      "Manny Machado",
+      "Xander Bogaerts",
+      "Gavin Sheets",
+      "Miguel Andujar",
+      "Freddy Fermin",
+      "Jake Cronenworth"
+    ],
+    "home_pitcher": "Jimmy Herget",
     "away_pitcher": "Randy V\u00e1squez",
-    "hp_umpire": null,
+    "hp_umpire": "Alex MacKay",
     "weather": {
       "venue": "Coors Field",
-      "temperature_f": 61.8,
-      "wind_speed_mph": 6.6,
-      "wind_direction": "S",
-      "wind_direction_deg": 170,
+      "temperature_f": 63.0,
+      "wind_speed_mph": 5.6,
+      "wind_direction": "SE",
+      "wind_direction_deg": 151,
       "precipitation_probability": 0,
-      "hr_wind_impact": "crosswind_6mph_neutral"
+      "hr_wind_impact": "crosswind_5mph_neutral"
     },
     "park_factors": {
       "runs": 117,
@@ -448,7 +758,16 @@
       "so_factor": 92,
       "so_context": "K-suppressing park (SO factor 92) -- dampens pitcher K props"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Alex MacKay",
+      "games_graded": 83,
+      "overall_accuracy": 94.49,
+      "accuracy_above_expected": 0.984,
+      "avg_run_impact_per_game": 1.1,
+      "weighted_score": 112.19999999999999,
+      "zone_tendency": "neutral",
+      "umpire_note": "Alex MacKay: 94.5% accuracy over 83 games (above expected). Avg run impact: 1.10/game. Zone: neutral."
+    }
   },
   "824045": {
     "game_id": "824045",
@@ -465,10 +784,10 @@
     "hp_umpire": null,
     "weather": {
       "venue": "Angel Stadium",
-      "temperature_f": 56.6,
-      "wind_speed_mph": 4.2,
-      "wind_direction": "NW",
-      "wind_direction_deg": 295,
+      "temperature_f": 55.6,
+      "wind_speed_mph": 3.5,
+      "wind_direction": "SE",
+      "wind_direction_deg": 153,
       "precipitation_probability": 0,
       "hr_wind_impact": "calm_neutral"
     },
@@ -497,20 +816,30 @@
     "away_team": "Athletics",
     "venue": "T-Mobile Park",
     "commence_time": "2026-04-22T01:40:00Z",
-    "home_lineup_confirmed": false,
+    "home_lineup_confirmed": true,
     "away_lineup_confirmed": false,
-    "home_lineup": [],
+    "home_lineup": [
+      "Rob Refsnyder",
+      "Cal Raleigh",
+      "Julio Rodr\u00edguez",
+      "Josh Naylor",
+      "Randy Arozarena",
+      "J.P. Crawford",
+      "Mitch Garver",
+      "Cole Young",
+      "Leo Rivas"
+    ],
     "away_lineup": [],
     "home_pitcher": "Luis Castillo",
     "away_pitcher": "Jacob Lopez",
-    "hp_umpire": null,
+    "hp_umpire": "Malachi Moore",
     "weather": {
       "venue": "T-Mobile Park",
-      "temperature_f": 52.0,
-      "wind_speed_mph": 4.7,
-      "wind_direction": "SE",
-      "wind_direction_deg": 149,
-      "precipitation_probability": 37,
+      "temperature_f": 52.1,
+      "wind_speed_mph": 6.0,
+      "wind_direction": "E",
+      "wind_direction_deg": 88,
+      "precipitation_probability": 29,
       "hr_wind_impact": "roof_closed_weather_neutral"
     },
     "park_factors": {
@@ -530,7 +859,16 @@
       "so_factor": 104,
       "so_context": "Neutral for Ks (SO factor 104)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Malachi Moore",
+      "games_graded": 131,
+      "overall_accuracy": 93.03,
+      "accuracy_above_expected": -0.2,
+      "avg_run_impact_per_game": 1.41,
+      "weighted_score": 65.6,
+      "zone_tendency": "neutral",
+      "umpire_note": "Malachi Moore: 93.0% accuracy over 131 games (below expected). Avg run impact: 1.41/game. Zone: neutral."
+    }
   },
   "825099": {
     "game_id": "825099",
@@ -538,19 +876,29 @@
     "away_team": "Chicago White Sox",
     "venue": "Chase Field",
     "commence_time": "2026-04-22T01:40:00Z",
-    "home_lineup_confirmed": false,
+    "home_lineup_confirmed": true,
     "away_lineup_confirmed": false,
-    "home_lineup": [],
+    "home_lineup": [
+      "Ketel Marte",
+      "Corbin Carroll",
+      "Geraldo Perdomo",
+      "Adrian Del Castillo",
+      "Lourdes Gurriel Jr.",
+      "Jose Fernandez",
+      "Nolan Arenado",
+      "Ildemaro Vargas",
+      "Alek Thomas"
+    ],
     "away_lineup": [],
     "home_pitcher": "Merrill Kelly",
     "away_pitcher": "Sean Burke",
-    "hp_umpire": null,
+    "hp_umpire": "Doug Eddings",
     "weather": {
       "venue": "Chase Field",
-      "temperature_f": 67.6,
-      "wind_speed_mph": 3.5,
-      "wind_direction": "SW",
-      "wind_direction_deg": 243,
+      "temperature_f": 67.9,
+      "wind_speed_mph": 2.1,
+      "wind_direction": "SE",
+      "wind_direction_deg": 139,
       "precipitation_probability": 0,
       "hr_wind_impact": "roof_closed_weather_neutral"
     },
@@ -571,7 +919,16 @@
       "so_factor": 98,
       "so_context": "Neutral for Ks (SO factor 98)"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Doug Eddings",
+      "games_graded": 327,
+      "overall_accuracy": 92.35,
+      "accuracy_above_expected": -0.376,
+      "avg_run_impact_per_game": 1.51,
+      "weighted_score": 34.900000000000006,
+      "zone_tendency": "loose_zone",
+      "umpire_note": "Doug Eddings: 92.3% accuracy over 327 games (below expected). Avg run impact: 1.51/game. Zone: loose zone."
+    }
   },
   "823236": {
     "game_id": "823236",
@@ -579,21 +936,31 @@
     "away_team": "Los Angeles Dodgers",
     "venue": "Oracle Park",
     "commence_time": "2026-04-22T01:45:00Z",
-    "home_lineup_confirmed": false,
+    "home_lineup_confirmed": true,
     "away_lineup_confirmed": false,
-    "home_lineup": [],
+    "home_lineup": [
+      "Willy Adames",
+      "Luis Arraez",
+      "Matt Chapman",
+      "Rafael Devers",
+      "Casey Schmitt",
+      "Jung Hoo Lee",
+      "Heliot Ramos",
+      "Drew Gilbert",
+      "Patrick Bailey"
+    ],
     "away_lineup": [],
     "home_pitcher": "Landen Roupp",
     "away_pitcher": "Yoshinobu Yamamoto",
-    "hp_umpire": null,
+    "hp_umpire": "Junior Valentine",
     "weather": {
       "venue": "Oracle Park",
-      "temperature_f": 49.4,
-      "wind_speed_mph": 7.2,
+      "temperature_f": 48.8,
+      "wind_speed_mph": 5.4,
       "wind_direction": "W",
-      "wind_direction_deg": 272,
-      "precipitation_probability": 14,
-      "hr_wind_impact": "crosswind_7mph_neutral"
+      "wind_direction_deg": 268,
+      "precipitation_probability": 8,
+      "hr_wind_impact": "crosswind_5mph_neutral"
     },
     "park_factors": {
       "runs": 94,
@@ -612,6 +979,15 @@
       "so_factor": 105,
       "so_context": "K-friendly park (SO factor 105) -- boosts pitcher K props"
     },
-    "umpire": {}
+    "umpire": {
+      "umpire": "Junior Valentine",
+      "games_graded": 137,
+      "overall_accuracy": 94.53,
+      "accuracy_above_expected": 1.038,
+      "avg_run_impact_per_game": 1.15,
+      "weighted_score": 112.55000000000001,
+      "zone_tendency": "tight_zone",
+      "umpire_note": "Junior Valentine: 94.5% accuracy over 137 games (above expected). Avg run impact: 1.15/game. Zone: tight zone."
+    }
   }
 }
