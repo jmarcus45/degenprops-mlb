@@ -1,0 +1,394 @@
+{
+  "generated_at": "2026-04-21T21:10:11.996961+00:00",
+  "total_resolved": 113,
+  "overall_win_rate": {
+    "rate": 0.54,
+    "n": 113
+  },
+  "signal_performance": {
+    "historical_rate": {
+      "rate": 0.514,
+      "n": 111,
+      "label": "Moderate"
+    },
+    "quality_of_contact": {
+      "rate": 0.506,
+      "n": 81,
+      "label": "Moderate"
+    },
+    "contact_rate": {
+      "rate": 0.469,
+      "n": 32,
+      "label": "Weak"
+    },
+    "opposing_pitcher_form": {
+      "rate": 0.589,
+      "n": 56,
+      "label": "Good"
+    },
+    "recent_form": {
+      "rate": 0.486,
+      "n": 37,
+      "label": "Weak"
+    },
+    "arsenal_quality": {
+      "rate": 0.56,
+      "n": 25,
+      "label": "Good"
+    },
+    "count_efficiency": {
+      "rate": 0.619,
+      "n": 21,
+      "label": "Good"
+    },
+    "velocity_trend": {
+      "rate": 0.4,
+      "n": 5,
+      "label": "insufficient_sample"
+    },
+    "lineup_k_profile": {
+      "rate": 0.615,
+      "n": 13,
+      "label": "insufficient_sample"
+    },
+    "implied_total": {
+      "rate": 0.538,
+      "n": 39,
+      "label": "Moderate"
+    },
+    "babip_regression": {
+      "rate": 0.667,
+      "n": 3,
+      "label": "insufficient_sample"
+    },
+    "power_metrics": {
+      "rate": 0.679,
+      "n": 28,
+      "label": "STRONG"
+    },
+    "park_factor": {
+      "rate": 0.412,
+      "n": 17,
+      "label": "POOR"
+    },
+    "weather": {
+      "rate": 0.5,
+      "n": 2,
+      "label": "insufficient_sample"
+    },
+    "platoon_advantage": {
+      "rate": 0.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    },
+    "line_discrepancy": {
+      "rate": 0.5,
+      "n": 4,
+      "label": "insufficient_sample"
+    },
+    "pitcher_gb_fb_type": {
+      "rate": 0.5,
+      "n": 2,
+      "label": "insufficient_sample"
+    },
+    "umpire_zone": {
+      "rate": 1.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    }
+  },
+  "signal_pair_performance": {
+    "contact_rate+historical_rate": {
+      "rate": 0.469,
+      "n": 32,
+      "label": "Weak"
+    },
+    "contact_rate+opposing_pitcher_form": {
+      "rate": 0.545,
+      "n": 22,
+      "label": "Moderate"
+    },
+    "contact_rate+quality_of_contact": {
+      "rate": 0.44,
+      "n": 25,
+      "label": "POOR"
+    },
+    "historical_rate+opposing_pitcher_form": {
+      "rate": 0.596,
+      "n": 52,
+      "label": "Good"
+    },
+    "historical_rate+quality_of_contact": {
+      "rate": 0.5,
+      "n": 66,
+      "label": "Moderate"
+    },
+    "historical_rate+recent_form": {
+      "rate": 0.346,
+      "n": 26,
+      "label": "POOR"
+    },
+    "opposing_pitcher_form+quality_of_contact": {
+      "rate": 0.561,
+      "n": 41,
+      "label": "Good"
+    },
+    "opposing_pitcher_form+recent_form": {
+      "rate": 0.412,
+      "n": 17,
+      "label": "POOR"
+    },
+    "quality_of_contact+recent_form": {
+      "rate": 0.35,
+      "n": 20,
+      "label": "POOR"
+    },
+    "historical_rate+implied_total": {
+      "rate": 0.538,
+      "n": 39,
+      "label": "Moderate"
+    },
+    "implied_total+quality_of_contact": {
+      "rate": 0.516,
+      "n": 31,
+      "label": "Moderate"
+    },
+    "implied_total+opposing_pitcher_form": {
+      "rate": 0.607,
+      "n": 28,
+      "label": "Good"
+    },
+    "historical_rate+power_metrics": {
+      "rate": 0.667,
+      "n": 24,
+      "label": "STRONG"
+    },
+    "power_metrics+quality_of_contact": {
+      "rate": 0.632,
+      "n": 19,
+      "label": "STRONG"
+    },
+    "historical_rate+park_factor": {
+      "rate": 0.438,
+      "n": 16,
+      "label": "POOR"
+    }
+  },
+  "confidence_tier_calibration": {
+    "High": {
+      "rate": 0.5,
+      "n": 14,
+      "expected": 0.62,
+      "delta": -0.12,
+      "label": "insufficient_sample"
+    },
+    "Medium": {
+      "rate": 0.554,
+      "n": 83,
+      "expected": 0.54,
+      "delta": 0.014,
+      "label": "Good"
+    },
+    "Speculative": {
+      "rate": 0.5,
+      "n": 16,
+      "expected": 0.44,
+      "delta": 0.06,
+      "label": "Moderate"
+    }
+  },
+  "directional_bias": {
+    "Over": {
+      "rate": 0.523,
+      "n": 109
+    },
+    "Under": {
+      "rate": 1.0,
+      "n": 4
+    }
+  },
+  "market_performance": {
+    "batter_hits": {
+      "rate": 0.574,
+      "n": 68,
+      "label": "Good",
+      "avg_miss_magnitude": 0.74
+    },
+    "pitcher_strikeouts": {
+      "rate": 0.524,
+      "n": 21,
+      "label": "Moderate",
+      "avg_miss_magnitude": 1.79
+    },
+    "batter_total_bases": {
+      "rate": 0.438,
+      "n": 16,
+      "label": "POOR",
+      "avg_miss_magnitude": 1.38
+    },
+    "batter_runs_scored": {
+      "rate": 0.333,
+      "n": 3,
+      "label": "insufficient_sample",
+      "avg_miss_magnitude": 0.5
+    },
+    "batter_rbis": {
+      "rate": 0.5,
+      "n": 2,
+      "label": "insufficient_sample",
+      "avg_miss_magnitude": 0.5
+    },
+    "batter_hits_runs_rbis": {
+      "rate": 0.667,
+      "n": 3,
+      "label": "insufficient_sample",
+      "avg_miss_magnitude": 2.17
+    }
+  },
+  "market_edge_type_performance": {
+    "historical_rate": {
+      "rate": 0.559,
+      "n": 59,
+      "label": "Good"
+    },
+    "matchup_quality": {
+      "rate": 0.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    },
+    "book_disagreement": {
+      "rate": 1.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    },
+    "arsenal_quality": {
+      "rate": 0.417,
+      "n": 12,
+      "label": "insufficient_sample"
+    },
+    "babip_regression": {
+      "rate": 0.75,
+      "n": 4,
+      "label": "insufficient_sample"
+    },
+    "opposing_pitcher_form": {
+      "rate": 0.625,
+      "n": 8,
+      "label": "insufficient_sample"
+    },
+    "power_metrics": {
+      "rate": 0.75,
+      "n": 8,
+      "label": "insufficient_sample"
+    },
+    "contact_rate": {
+      "rate": 0.4,
+      "n": 5,
+      "label": "insufficient_sample"
+    },
+    "implied_total": {
+      "rate": 0.5,
+      "n": 2,
+      "label": "insufficient_sample"
+    },
+    "park_factor": {
+      "rate": 0.0,
+      "n": 3,
+      "label": "insufficient_sample"
+    },
+    "recent_form": {
+      "rate": 1.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    },
+    "quality_of_contact": {
+      "rate": 0.4,
+      "n": 5,
+      "label": "insufficient_sample"
+    },
+    "line_discrepancy": {
+      "rate": 0.333,
+      "n": 3,
+      "label": "insufficient_sample"
+    },
+    "lineup_k_profile": {
+      "rate": 1.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    }
+  },
+  "signal_durability_performance": {
+    "durable": {
+      "rate": 0.541,
+      "n": 111
+    },
+    "recent_form": {
+      "rate": 0.5,
+      "n": 2
+    }
+  },
+  "lineup_confirmed_performance": {
+    "True": {
+      "rate": 0.536,
+      "n": 69
+    },
+    "False": {
+      "rate": 0.545,
+      "n": 44
+    }
+  },
+  "projection_delta_performance": {
+    ">= +0.50": {
+      "rate": 0.538,
+      "n": 26,
+      "label": "Moderate"
+    },
+    "+0.20 to +0.49": {
+      "rate": 0.0,
+      "n": 4,
+      "label": "insufficient_sample"
+    },
+    "-0.49 to -0.16": {
+      "rate": 1.0,
+      "n": 1,
+      "label": "insufficient_sample"
+    }
+  },
+  "projection_delta_by_market": {
+    "batter_hits": {
+      ">= +0.50": {
+        "rate": 0.529,
+        "n": 17,
+        "label": "Moderate"
+      },
+      "+0.20 to +0.49": {
+        "rate": 0.0,
+        "n": 4,
+        "label": "insufficient_sample"
+      }
+    },
+    "batter_total_bases": {
+      ">= +0.50": {
+        "rate": 0.667,
+        "n": 6,
+        "label": "insufficient_sample"
+      }
+    },
+    "pitcher_strikeouts": {
+      ">= +0.50": {
+        "rate": 0.333,
+        "n": 3,
+        "label": "insufficient_sample"
+      },
+      "-0.49 to -0.16": {
+        "rate": 1.0,
+        "n": 1,
+        "label": "insufficient_sample"
+      }
+    }
+  },
+  "rolling_30_win_rate": {
+    "rate": 0.467,
+    "vs_overall": -0.073
+  }
+}
