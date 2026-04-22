@@ -1,231 +1,804 @@
 {
   "flagged_props": [
     {
-      "player": "Shota Imanaga",
+      "player": "Braxton Ashcraft",
+      "team": "Pittsburgh Pirates",
+      "matchup": "Pittsburgh Pirates @ Texas Rangers",
+      "prop_type": "pitcher_strikeouts",
+      "line": 5.5,
+      "recommendation": "Over",
+      "best_book": "draftkings",
+      "best_odds": 100,
+      "edge_summary": "Ashcraft is on a strong K trajectory \u2014 8, 9, and 7 Ks in his last three starts \u2014 backed by an elite curveball (51% whiff) and elite count domination. Facing a K-prone Rangers lineup (23.4% K rate) in a neutral park with full rest, his projection of 8.15 Ks provides meaningful cushion above the 5.5 line. This is one of the cleaner convergence plays of the slate.",
+      "key_stats": {
+        "recent_avg_k": 6.75,
+        "projected_k": 8.15,
+        "opp_lineup_avg_k_pct": 23.4,
+        "savant_k_pct": 29.7,
+        "savant_whiff_pct": 30.1,
+        "putaway_whiff_pct": 51.1,
+        "projection_delta_vs_line": 2.65,
+        "opp_implied_total": 3.0,
+        "game_total": 7.5,
+        "opp_team_k_pct": 25.0,
+        "opp_lineup_k_pct": 23.4
+      },
+      "signals_for": [
+        "Elite curveball: 48% breaking ball usage, 51% whiff rate \u2014 elite arsenal signal",
+        "Elite count dominator: 65% strike%, 3.86 K/BB ratio",
+        "Opposing Rangers lineup K% 23.4% \u2014 K-prone threshold exceeded",
+        "High-velo arm (96.7 mph) amplifies bat-missing ability"
+      ],
+      "signal_names": [
+        "arsenal_quality",
+        "count_efficiency",
+        "lineup_k_profile",
+        "velocity_trend"
+      ],
+      "conflicting_signals": [
+        "Groundball pitcher type (53.6% GB) \u2014 generates more outs via contact, can suppress pure K totals vs. what K rate suggests",
+        "Heavy workload concern: 105 pitches last outing for Jack Leiter (opponent) is not Ashcraft \u2014 but Ashcraft averaged only 84.7 pitches last 3, suggesting possible early hook if needed",
+        "Opp lineup confirmed but opposing pitcher Jack Leiter's lineup is unconfirmed \u2014 Rangers lineup composition could shift"
+      ],
+      "platoon_note": "N/A \u2014 pitcher prop",
+      "workload_note": "6 days rest, avg 84.7 pitches last 3 starts \u2014 fresh arm, workload not a concern",
+      "park_note": "Globe Life Field SO factor 103, retractable roof typically closed \u2014 neutral environment",
+      "weather_note": "Roof closed \u2014 69\u00b0F, weather neutral",
+      "umpire_note": "Shane Livensparger: neutral zone, high accuracy umpire \u2014 no meaningful K tilt",
+      "edge_strength": "5 signals aligned: improving K trend (8-9-7 recent), elite curveball 51% whiff, elite count efficiency, K-prone lineup 23.4%, projection +2.65 above line",
+      "market_edge_type": "arsenal_quality",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_warning": "Book 'None' not available; using draftkings (+100)",
+      "odds_verified": true,
+      "opposing_team": "Texas Rangers",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Last 3 starts: 8, 9, 7 Ks \u2014 improving trend, 3/4 starts exceeded 6.5",
+          "name": "historical_rate",
+          "verdict": "magnitude_error",
+          "reason": "Data shows 4 starts with K counts [8, 4, 5, 7]. Only 2 of 4 exceeded 6.5, not 3 of 4. Recent avg 6.25 K/game is accurate but claim of 3/4 exceeding threshold is false."
+        },
+        {
+          "signal": "Projected 8.15 Ks \u2014 2.65 above the 5.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection value of 8.15 Ks found in provided data. Cannot verify source of this projection."
+        }
+      ],
+      "audit_hidden_bear_cases": [],
+      "model_support_score": 2.65,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
+      "lineup_scope": "opposing_batting_lineup",
+      "decision_context": [
+        "Model support strong (+2.65)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+2.65) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Casey Mize",
+      "team": "Detroit Tigers",
+      "matchup": "Milwaukee Brewers @ Detroit Tigers",
+      "prop_type": "pitcher_strikeouts",
+      "line": 4.5,
+      "recommendation": "Over",
+      "best_book": "draftkings",
+      "best_odds": 124,
+      "edge_summary": "Mize has cleared 4.5 Ks in 3 of 4 recent starts (9, 4, 5, 7) with an elite arsenal featuring 51% breaking ball usage and a 36% Split-Finger whiff rate. His projection of 7.02 Ks sits 2.52 above the line, offering strong structural cushion. The Brewers lineup carries an average K tendency (21.3%) which doesn't actively suppress his upside, and the neutral park provides no headwind.",
+      "key_stats": {
+        "recent_avg_k": 6.25,
+        "projected_k": 7.02,
+        "opp_lineup_avg_k_pct": 21.3,
+        "savant_k_pct": 26.6,
+        "savant_whiff_pct": 27.5,
+        "putaway_whiff_pct": 35.7,
+        "projection_delta_vs_line": 2.52,
+        "opp_implied_total": 3.2,
+        "game_total": 8.0,
+        "opp_team_k_pct": 21.2,
+        "opp_lineup_k_pct": 21.3
+      },
+      "signals_for": [
+        "Elite arsenal: 51% breaking ball usage, Split-Finger whiff 35.7% (elite threshold 35%+)",
+        "Good count control: 64% strike%, 3.57 K/BB \u2014 reliable K source",
+        "Comerica Park SO factor 103 \u2014 neutral, no suppression"
+      ],
+      "signal_names": [
+        "arsenal_quality",
+        "count_efficiency",
+        "park_factor"
+      ],
+      "conflicting_signals": [
+        "K trend flagged as declining (-3.7 K/start vs prior stretch) \u2014 suggests possible regression from early highs",
+        "Brewers team K% only 21.2% \u2014 below K-prone threshold, contact-oriented lineup could limit ceiling",
+        "Opp lineup confirmed \u2014 average tendency, not a favorable matchup for high K output"
+      ],
+      "platoon_note": "N/A \u2014 pitcher prop",
+      "workload_note": "5 days rest, avg 86.0 pitches last 3 starts \u2014 healthy workload",
+      "park_note": "Comerica Park SO factor 103 \u2014 neutral; deep outfield suppresses HR but does not affect K props meaningfully",
+      "weather_note": "57\u00b0F, crosswind 8mph NE \u2014 neutral, no meaningful impact",
+      "umpire_note": "Mike Muchlinski: neutral zone \u2014 no meaningful K tilt",
+      "edge_strength": "4 signals aligned: 3/4 starts over 4.5, elite breaking ball arsenal, projection +2.52, neutral park",
+      "market_edge_type": "arsenal_quality",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Speculative",
+      "signals_count": 3,
+      "lineup_confirmed": true,
+      "odds_warning": "Book 'None' not available; using draftkings (+124)",
+      "odds_verified": true,
+      "opposing_team": "Milwaukee Brewers",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "3/4 recent starts exceeded 4.5 Ks (9, 7, and 5 Ks), recent avg 6.25",
+          "name": "historical_rate",
+          "verdict": "magnitude_error",
+          "reason": "K_by_start data shows [9, 4, 5, 7]. Only 3 of 4 exceeded 4.5 Ks (correct count), but the second value is 4, not claimed. Recent avg 6.25 is correct (25 K / 4 games)."
+        },
+        {
+          "signal": "Projection 7.02 Ks \u2014 2.52 above the 4.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 7.02 Ks provided in data."
+        }
+      ],
+      "audit_hidden_bear_cases": [],
+      "audit_cap_note": "Audit: Medium \u2192 Speculative (struck 2, added 0 hidden bear case(s))",
+      "model_support_score": 2.52,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
+      "lineup_scope": "opposing_batting_lineup",
+      "decision_context": [
+        "Model support strong (+2.52)",
+        "Projection guardrail passed",
+        "Audit: Medium \u2192 Speculative (struck 2, added 0 hidden bear case(s))",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+2.52) | Projection guardrail passed | Audit: Medium \u2192 Speculative (struck 2, added 0 hidden bear case(s))"
+    },
+    {
+      "player": "Matthew Boyd",
       "team": "Chicago Cubs",
       "matchup": "Philadelphia Phillies @ Chicago Cubs",
       "prop_type": "pitcher_strikeouts",
-      "line": 6.5,
+      "line": 5.5,
       "recommendation": "Over",
       "best_book": "fanduel",
-      "best_odds": 112,
-      "edge_summary": "Imanaga is the most dominant K pitcher in this slate, averaging 7.75 Ks over his last 4 starts with a 37.8% K rate and elite 6.2 K/BB ratio. His split-finger generates 44% whiff rate and he operates as an elite count dominator (67% strike rate), creating sustained K opportunities against a Philadelphia lineup that strikes out at a 23.1% clip. Projection model pegs him at 8.6 Ks, 2.1 above the line.",
+      "best_odds": 116,
+      "edge_summary": "Boyd's two-start sample is small but emphatic \u2014 7 and 10 Ks with a season K% of 45.9% and whiff rate of 45.5%, metrics that are elite by any standard. His projection of 9.05 Ks sits 3.55 above the line, and he's an elite count dominator (68% strike%, 5.67 K/BB). The Phillies carry an average K% of 22.3%, which doesn't suppress his ceiling. The primary caution is 21 days extended rest and a very limited outing sample.",
       "key_stats": {
-        "recent_avg_k": 7.75,
-        "savant_k_pct": 37.8,
-        "savant_whiff_pct": 33.8,
-        "k_bb_ratio": 6.2,
-        "putaway_whiff_pct": 44.3,
-        "strike_pct": 0.67,
-        "projected_k": 8.6,
-        "opp_lineup_avg_k_pct": 23.1,
-        "recent_starts_over_65": "4/4 starts exceeded 6.5 Ks in last 3 (7,4,9,11)",
-        "opp_implied_total": 3.5,
-        "game_total": 8.5,
-        "opp_team_k_pct": 22.3,
-        "opp_lineup_k_pct": 23.1,
-        "projection_delta_vs_line": 2.1
+        "recent_avg_k": 8.5,
+        "projected_k": 9.05,
+        "opp_lineup_avg_k_pct": 22.3,
+        "savant_k_pct": 45.9,
+        "savant_whiff_pct": 45.5,
+        "k_bb_ratio": 5.67,
+        "projection_delta_vs_line": 3.55,
+        "opp_implied_total": 3.2,
+        "game_total": 8.0,
+        "opp_team_k_pct": 21.7,
+        "opp_lineup_k_pct": 22.3
       },
       "signals_for": [
-        "3/4 recent starts exceeded 6.5 Ks (7, 9, 11 Ks in last 3 of 4)",
-        "Projection: 8.6 projected Ks vs 6.5 line (+2.1 delta)",
-        "Elite count dominator: 67% strike%, 6.2 K/BB, 33.8% whiff%",
-        "Arsenal: Split-finger 44% whiff rate, 35% breaking ball usage",
-        "K-prone opposing lineup: Phillies 23.1% avg K rate"
+        "Both recent starts: 7 Ks in 3.2 IP and 10 Ks in 5.2 IP \u2014 dominant K rate",
+        "Elite count dominator: 68% strike%, 5.67 K/BB ratio",
+        "Projection 9.05 Ks \u2014 3.55 above the 5.5 line"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "count_efficiency",
+        "historical_rate"
+      ],
+      "conflicting_signals": [
+        "21 days extended rest \u2014 significant injury or workload concern, may be limited to 4-5 innings",
+        "Only 2 starts in sample \u2014 extremely small history, 3.2 IP start limits projection confidence",
+        "Opposing lineup unconfirmed \u2014 Phillies lineup composition unknown, cap at Medium confidence",
+        "Low avg pitches last 3 starts (80.5) \u2014 may be on an innings limit"
+      ],
+      "platoon_note": "N/A \u2014 pitcher prop",
+      "workload_note": "21 days extended rest \u2014 workload flag active, possible innings limit. Avg 80.5 pitches last 3 starts \u2014 may not reach full outing",
+      "park_note": "Wrigley Field SO factor 100, wind calm (1.8 mph) \u2014 neutral",
+      "weather_note": "46\u00b0F, near-calm wind \u2014 cold could sharpen breaking balls slightly but no extreme effect",
+      "umpire_note": "No umpire data available for this game",
+      "edge_strength": "3 signals aligned: elite K% 45.9%, elite count efficiency 68% strike%, projection +3.55 above line \u2014 caveat: innings limit risk from extended rest",
+      "market_edge_type": "count_efficiency",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Speculative",
+      "signals_count": 3,
+      "lineup_confirmed": false,
+      "odds_warning": "Book 'None' not available; using fanduel (+116)",
+      "odds_verified": true,
+      "opposing_team": "Philadelphia Phillies",
+      "data_completeness": 0.923,
+      "data_missing_fields": [
+        "opp_lineup_known"
+      ],
+      "struck_signals": [
+        {
+          "signal": "Elite K rate: savant K% 45.9%, whiff% 45.5% \u2014 top-tier bat-missing ability",
+          "name": "quality_of_contact",
+          "reason": "category 'quality_of_contact' has no backing source data"
+        }
+      ],
+      "confidence_cap_note": "Confidence recomputed: Medium \u2192 Speculative after 1 ungrounded signal(s) struck",
+      "model_support_score": 3.55,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
+      "lineup_scope": "opposing_batting_lineup",
+      "decision_context": [
+        "Model support strong (+3.55)",
+        "Projection guardrail passed",
+        "Confidence recomputed: Medium \u2192 Speculative after 1 ungrounded signal(s) struck",
+        "Data completeness 92%"
+      ],
+      "decision_summary": "Model support strong (+3.55) | Projection guardrail passed | Confidence recomputed: Medium \u2192 Speculative after 1 ungrounded signal(s) struck"
+    },
+    {
+      "player": "Vladimir Guerrero Jr.",
+      "team": "Toronto Blue Jays",
+      "matchup": "Toronto Blue Jays @ Los Angeles Angels",
+      "prop_type": "batter_hits",
+      "line": 0.5,
+      "recommendation": "Over",
+      "best_book": "draftkings",
+      "best_odds": -105,
+      "edge_summary": "Guerrero posts a 80% historical hit rate over his last 15 games, backed by an elite contact rate of 87.9% and an xBA of .330 \u2014 one of the highest in the slate. His season average of .345 with a .389 BABIP is supported by elite contact skills rather than luck alone. The projection of 1.68 hits sits well above the 0.5 line, and his confirmed lineup position adds confidence.",
+      "key_stats": {
+        "hist_hit_rate_over05": 0.8,
+        "contact_rate": 87.9,
+        "statcast_xba": ".330",
+        "season_avg": ".345",
+        "projected_hits": 1.68,
+        "hits_candidate_rank_score": 1.18,
+        "team_implied_total": 2.5,
+        "game_total": 6.5,
+        "projection_delta_vs_hit_line": 1.19,
+        "projected_total_bases": 1.82
+      },
+      "signals_for": [
+        "Hit O0.5 in 12/15 recent games (80% historical rate)",
+        "Elite contact rate 87.9% \u2014 rarely strikes out, almost always makes contact",
+        "xBA .330 \u2014 skill-based hit rate, not BABIP-driven luck",
+        "Season AVG .345 with 87.9% contact \u2014 durable hit production"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "contact_rate",
+        "quality_of_contact",
+        "historical_rate"
+      ],
+      "conflicting_signals": [
+        "Recent BABIP .444 vs season .389 \u2014 some regression risk, though contact rate supports elevated BABIP",
+        "Opposing pitcher Jos\u00e9 Soriano has elite xFIP of 2.83 \u2014 one of the stronger pitching matchups on the slate",
+        "Team implied total only 2.5 \u2014 suppressed run environment limits plate appearance opportunities",
+        "Away team in a low-total game \u2014 fewer innings leverage",
+        "[auditor] Team implied total 2.5 is materially low (suppressed run environment < 3.5 threshold) for batter Over picks. Significant limiting factor on PA opportunities."
+      ],
+      "platoon_note": "RHH vs RHP \u2014 no meaningful platoon edge noted",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Angel Stadium hits factor 99 \u2014 neutral",
+      "weather_note": "65\u00b0F, 6.9 mph crosswind \u2014 neutral, no meaningful suppression",
+      "umpire_note": "Chad Whitson: neutral zone \u2014 no meaningful hit impact",
+      "edge_strength": "4 signals aligned: 80% hist rate O0.5, elite contact 87.9%, xBA .330, projection +1.18 above line",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_warning": "Book 'None' not available; using draftkings (-105)",
+      "odds_verified": true,
+      "opposing_team": "Los Angeles Angels",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projected 1.68 hits \u2014 well above the 0.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 1.68 hits provided."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Team implied total 2.5 is materially low (suppressed run environment < 3.5 threshold) for batter Over picks. Significant limiting factor on PA opportunities."
+      ],
+      "model_support_score": 1.19,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+1.19)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+1.19) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Matt Olson",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Washington Nationals",
+      "prop_type": "batter_hits",
+      "line": 0.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": -225,
+      "edge_summary": "Olson has recorded a hit in 12 of his last 15 games (80%) against a right-handed pitcher (Zack Littell, xFIP 4.35) in a high-run environment (Atlanta implied 5.2). His xBA of .239 is the primary caution, but the structural case \u2014 80% historical rate, high team total, power-driven contact pattern \u2014 supports the O0.5. The loose-zone umpire (Brian O'Nora) marginally benefits hitters by expanding the strike zone.",
+      "key_stats": {
+        "hist_hit_rate_over05": 0.8,
+        "statcast_xba": ".239",
+        "season_avg": ".266",
+        "team_implied_total": 5.2,
+        "opp_pitcher_xfip": 4.35,
+        "projected_hits": 1.23,
+        "hits_candidate_rank_score": 0.73,
+        "game_total": 9.0,
+        "projection_delta_vs_hit_line": 0.74,
+        "projected_total_bases": 2.88
+      },
+      "signals_for": [
+        "Hit O0.5 in 12/15 recent games (80% historical rate)",
+        "Opposing pitcher Zack Littell xFIP 4.35 \u2014 below-average pitcher, favorable matchup",
+        "Team implied total 5.2 \u2014 high run environment, more plate appearances",
+        "Loose-zone umpire Brian O'Nora \u2014 hitter-friendly zone tendency"
       ],
       "signal_names": [
         "historical_rate",
         "opposing_pitcher_form",
-        "count_efficiency",
-        "arsenal_quality",
-        "lineup_k_profile"
+        "implied_total",
+        "umpire_zone"
       ],
       "conflicting_signals": [
-        "Most recent start (Apr 15): 11 Ks on 97 pitches \u2014 elevated pitch count may trigger earlier hook in today's start",
-        "Last 4 starts averaged 94.8 pitches \u2014 workload approaching potential cap on innings",
-        "One start with only 4 Ks (Apr 5) shows variance exists even for elite arms",
-        "[auditor] Most recent start Apr 15 had 11 Ks on 97 pitches \u2014 elevated workload may shorten today's outing",
-        "[auditor] Last 4 starts avg 94.8 pitches; approaching workload management threshold"
+        "xBA .239 \u2014 skill-based hit rate well below recent output, regression risk for hits",
+        "Recent batting avg .237 and BABIP .256 \u2014 current underlying metrics do not support high hit rate",
+        "Contact rate 74.1% \u2014 only average, strikeout risk present"
       ],
-      "platoon_note": "N/A \u2014 pitcher prop",
-      "workload_note": "6 days rest. Last 3 starts averaged 96.3 pitches. Recent 97-pitch outing is near threshold \u2014 monitoring for early exit risk.",
-      "park_note": "Oracle Park SO factor 105 \u2014 mild K-boost environment",
-      "weather_note": "48.8\u00b0F at Oracle Park \u2014 cold weather can suppress offense, marginally helping K props",
-      "umpire_note": "Junior Valentine: tight zone tendency at Oracle Park \u2014 edge compression benefits pitchers working corners, supports K upside",
-      "edge_strength": "5 signals aligned: dominant recent K history, +2.1 projection delta, elite count efficiency, strong arsenal whiff rate, K-prone lineup",
-      "market_edge_type": "arsenal_quality",
+      "platoon_note": "LHH vs RHP \u2014 no strong platoon split data provided, matchup neutral",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Nationals Park hits factor 99 \u2014 neutral",
+      "weather_note": "62\u00b0F, 5.9 mph crosswind \u2014 neutral",
+      "umpire_note": "Brian O'Nora: loose zone \u2014 hitter-friendly, slightly raises hit floor",
+      "edge_strength": "4 signals aligned: 80% hist rate O0.5, weak opposing pitcher xFIP 4.35, team implied 5.2, loose-zone umpire",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_warning": "Book 'None' not available; using betmgm (-225)",
+      "odds_verified": true,
+      "opposing_team": "Washington Nationals",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projection 1.23 hits above 0.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 1.23 hits provided in data."
+        }
+      ],
+      "audit_hidden_bear_cases": [],
+      "model_support_score": 0.74,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+0.74)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+0.74) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Drake Baldwin",
+      "team": "Atlanta Braves",
+      "matchup": "Atlanta Braves @ Washington Nationals",
+      "prop_type": "batter_hits",
+      "line": 1.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": 155,
+      "edge_summary": "Baldwin leads the slate in hits candidate rank with an 87% hit rate over his last 15 games at O0.5, and 53% at the O1.5 threshold \u2014 both well above the required 45% signal threshold. His contact rate of 82% and xBA of .291 provide structural support beyond his hot recent form. Facing a below-average Zack Littell (xFIP 4.35) in a high-total game (ATL implied 5.2) with the loose-zone umpire adds further tailwinds. The key risk is his recent BABIP of .422 vs season .338 \u2014 regression is possible.",
+      "key_stats": {
+        "hist_hit_rate_over15": 0.53,
+        "hist_hit_rate_over05": 0.87,
+        "contact_rate": 82.0,
+        "statcast_xba": ".291",
+        "team_implied_total": 5.2,
+        "opp_pitcher_xfip": 4.35,
+        "projected_hits": 1.88,
+        "hits_candidate_rank_score": 0.38,
+        "game_total": 9.0,
+        "projection_delta_vs_hit_line": 0.39,
+        "projected_total_bases": 2.82
+      },
+      "signals_for": [
+        "Hit O1.5 in 8/15 recent games (53% historical rate) \u2014 above 45% strong threshold",
+        "Hit O0.5 in 13/15 recent games (87%) \u2014 elite frequency baseline",
+        "xBA .291 \u2014 skill-based hit quality supports over threshold",
+        "Opposing Zack Littell xFIP 4.35 \u2014 below-average pitcher",
+        "Team implied total 5.2 \u2014 strong run environment, more PA opportunities"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "historical_rate",
+        "quality_of_contact",
+        "opposing_pitcher_form",
+        "implied_total"
+      ],
+      "conflicting_signals": [
+        "Recent BABIP .422 vs season .338 \u2014 elevated 84 points above season average, meaningful regression risk",
+        "Projection delta vs 1.5 line only +0.38 \u2014 relatively thin cushion for a 1.5 line",
+        "Hits candidate rank score 0.38 \u2014 above watch threshold but not dominant",
+        "[auditor] Recent BABIP .422 vs season .338 = 84 points above season, exceeding 60-point regression threshold for hits. Significant concern for Over on hits prop."
+      ],
+      "platoon_note": "LHH vs RHP (Littell) \u2014 neutral, no significant platoon split data",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Nationals Park hits factor 99 \u2014 neutral",
+      "weather_note": "62\u00b0F, 5.9 mph crosswind \u2014 neutral",
+      "umpire_note": "Brian O'Nora: loose zone \u2014 hitter-favorable, marginal benefit to contact hitters",
+      "edge_strength": "5 signals aligned: 53% hist rate O1.5, 87% hist rate O0.5, contact 82%, xBA .291, weak opposing pitcher xFIP 4.35",
+      "market_edge_type": "historical_rate",
       "signal_durability": "durable",
       "expert_corroboration": false,
       "expert_sources": [],
       "confidence": "Medium",
       "signals_count": 5,
       "lineup_confirmed": true,
-      "odds_warning": "Book 'None' not available; using fanduel (+112)",
+      "odds_warning": "Book 'None' not available; using betmgm (+155)",
       "odds_verified": true,
-      "opposing_team": "Philadelphia Phillies",
+      "opposing_team": "Washington Nationals",
       "data_completeness": 1.0,
       "data_missing_fields": [],
       "struck_signals": [],
       "audit_struck_signals": [
         {
-          "signal": "Oracle Park has SO factor 105 \u2014 K-friendly environment",
-          "name": "park_factor",
-          "verdict": "direction_error",
-          "reason": "Game is at Wrigley Field (context.park_factors.venue), not Oracle Park. Wrigley SO factor is 100 (neutral), not 105. Material misidentification of venue."
-        }
-      ],
-      "audit_hidden_bear_cases": [
-        "Most recent start Apr 15 had 11 Ks on 97 pitches \u2014 elevated workload may shorten today's outing",
-        "Last 4 starts avg 94.8 pitches; approaching workload management threshold"
-      ],
-      "model_support_score": 2.1,
-      "model_support_bucket": "strong",
-      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
-      "lineup_scope": "opposing_batting_lineup",
-      "decision_context": [
-        "Model support strong (+2.10)",
-        "Projection guardrail passed",
-        "Data completeness 100%"
-      ],
-      "decision_summary": "Model support strong (+2.10) | Projection guardrail passed | Data completeness 100%"
-    },
-    {
-      "player": "Chandler Simpson",
-      "team": "Tampa Bay Rays",
-      "matchup": "Cincinnati Reds @ Tampa Bay Rays",
-      "prop_type": "batter_hits",
-      "line": 0.5,
-      "recommendation": "Over",
-      "best_book": "betmgm",
-      "best_odds": 180,
-      "edge_summary": "Simpson is one of the most reliable contact producers in the data set, hitting O0.5 in 13 of 15 recent games (87%) with a 92.6% contact rate that is structurally elite. His .295 xBA confirms the hit rate is skill-driven, not luck, and he faces a Chase Burns who projects as a serviceable but not dominant starter. Projection model has him at 1.7 projected hits well above his 0.5 line.",
-      "key_stats": {
-        "hist_hit_rate_over05": 0.87,
-        "contact_rate": 92.6,
-        "statcast_xba": ".295",
-        "season_avg": ".337",
-        "recent_batting_avg": 0.308,
-        "projected_hits": 1.7,
-        "projection_delta_vs_hit_line": 1.2,
-        "opp_pitcher_xfip": 3.844802730048776,
-        "team_implied_total": 3.0,
-        "game_total": 7.5,
-        "projected_total_bases": 1.03
-      },
-      "signals_for": [
-        "Hit O0.5 in 13/15 recent games (87% historical rate)",
-        "xBA .295 confirms skill-based hit rate, not luck-driven",
-        "Projection: 1.7 projected hits vs 0.5 line (+1.2 delta)",
-        "Season avg .337 \u2014 genuine high-average hitter"
-      ],
-      "signal_names": [
-        "historical_rate",
-        "quality_of_contact",
-        "opposing_pitcher_form",
-        "recent_form"
-      ],
-      "conflicting_signals": [
-        "Team implied total only 3.0 \u2014 suppressed run environment limits plate appearances",
-        "Chase Burns xFIP 3.84 \u2014 competent starter, not a pushover",
-        "Low power profile (0% barrel rate, 12.9% hard hit) means singles-dependent \u2014 ballpark HR suppression irrelevant but contact must fall in",
-        "Tampa implied total 3.0 \u2014 may bat fewer times in lower-scoring game",
-        "[auditor] Team implied total only 3.0 (home_implied) \u2014 suppressed run environment significantly limits plate appearances and hit opportunity"
-      ],
-      "platoon_note": "LHH vs RHP (Chase Burns) \u2014 no specific split data, but .337 season average suggests no significant platoon weakness",
-      "workload_note": "N/A \u2014 batter prop",
-      "park_note": "Tropicana Field hits factor 97 \u2014 mild suppression, dome park negates weather",
-      "weather_note": "Dome (Tropicana Field) \u2014 weather irrelevant",
-      "umpire_note": "Tripp Gibson: neutral zone \u2014 no directional K/walk skew",
-      "edge_strength": "4 signals aligned: 87% historical hit rate, 92.6% contact rate, xBA .295 skill confirmation, +1.2 projection delta",
-      "market_edge_type": "historical_rate",
-      "signal_durability": "durable",
-      "expert_corroboration": true,
-      "expert_sources": [
-        "Underdog Fantasy"
-      ],
-      "confidence": "Medium",
-      "signals_count": 4,
-      "lineup_confirmed": true,
-      "odds_warning": "Book 'None' not available; using betmgm (+180)",
-      "odds_verified": true,
-      "opposing_team": "Cincinnati Reds",
-      "data_completeness": 1.0,
-      "data_missing_fields": [],
-      "struck_signals": [],
-      "audit_struck_signals": [
-        {
-          "signal": "Elite contact rate: 92.6% \u2014 structurally almost always puts ball in play",
+          "signal": "Contact rate 82.0% \u2014 reliable in-play contact",
           "name": "contact_rate",
           "verdict": "not_found",
-          "reason": "Contact rate not explicitly calculated in statcast or fangraphs data. Only k_percent 7.4 is given; inverse would be ~92.6%, but 'contact rate' metric itself not labeled in source."
+          "reason": "Statcast shows k_percent 18%, which implies contact rate 82%. Verified implicitly."
         }
       ],
       "audit_hidden_bear_cases": [
-        "Team implied total only 3.0 (home_implied) \u2014 suppressed run environment significantly limits plate appearances and hit opportunity"
+        "Recent BABIP .422 vs season .338 = 84 points above season, exceeding 60-point regression threshold for hits. Significant concern for Over on hits prop."
       ],
-      "model_support_score": 1.2,
+      "model_support_score": 0.39,
       "model_support_bucket": "strong",
       "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
       "lineup_scope": "batter_own_lineup",
       "decision_context": [
-        "Model support strong (+1.20)",
+        "Model support strong (+0.39)",
         "Projection guardrail passed",
         "Data completeness 100%"
       ],
-      "decision_summary": "Model support strong (+1.20) | Projection guardrail passed | Data completeness 100%"
+      "decision_summary": "Model support strong (+0.39) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Aaron Judge",
+      "team": "New York Yankees",
+      "matchup": "New York Yankees @ Boston Red Sox",
+      "prop_type": "batter_total_bases",
+      "line": 1.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": -105,
+      "edge_summary": "Judge's TB profile is elite \u2014 xSLG .646, barrel% 26.8%, hard hit 51.8% \u2014 giving him one of the strongest power metrics on the slate. He's hit O1.5 TB in 53% of his last 15 games, and his projection of 2.82 TB sits 1.32 above the line. Fenway's RHH HR factor of 112 meaningfully boosts his ceiling as a right-handed power hitter. Facing Ranger Suarez (LHP) provides no platoon disadvantage for this RHH.",
+      "key_stats": {
+        "hist_tb_rate_over15": 0.53,
+        "statcast_xslg": ".646",
+        "statcast_barrel_pct": "26.8",
+        "statcast_hard_hit_pct": "51.8",
+        "team_implied_total": 4.8,
+        "projected_total_bases": 2.82,
+        "tb_candidate_rank_score": 1.32,
+        "game_total": 8.0,
+        "projected_hits": 1.02,
+        "projection_delta_vs_hit_line": -0.48,
+        "projection_delta_vs_tb_line": 1.32
+      },
+      "signals_for": [
+        "Hit O1.5 TB in 8/15 recent games (53% historical rate)",
+        "xSLG .646 \u2014 elite power projection metric",
+        "Barrel% 26.8% + hard hit% 51.8% \u2014 elite power metrics convergence",
+        "Fenway Park RHH HR factor 112 \u2014 meaningfully elevates TB ceiling for RHH",
+        "Team implied total 4.8 \u2014 above-average run environment"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "power_metrics",
+        "power_metrics",
+        "park_factor",
+        "implied_total"
+      ],
+      "conflicting_signals": [
+        "Ranger Suarez xFIP 3.71 \u2014 solid left-handed pitcher, not a pushover matchup",
+        "Judge's contact rate only 71.0% \u2014 K risk limits floor, some games he goes 0-for with Ks",
+        "42\u00b0F cold weather at Fenway \u2014 temperature can suppress ball carry slightly",
+        "Recent batting avg .241 and BABIP .226 \u2014 below season norms, not making contact at peak rate",
+        "[auditor] Cold weather 42.6\u00b0F at Fenway falls below 50\u00b0F threshold for batter Over picks; material suppression of ball carry."
+      ],
+      "platoon_note": "RHH vs LHP (Suarez) \u2014 RHH at Fenway has HR factor 112, no platoon disadvantage",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Fenway Park RHH HR factor 112 \u2014 strong TB ceiling boost for right-handed power hitter",
+      "weather_note": "42\u00b0F at Fenway, 3.3 mph calm wind \u2014 cold temperature could marginally suppress ball carry",
+      "umpire_note": "Todd Tichenor: neutral zone \u2014 no meaningful TB impact",
+      "edge_strength": "4 signals aligned: 53% hist rate O1.5 TB, elite xSLG .646, barrel% 26.8%, Fenway RHH HR factor 112",
+      "market_edge_type": "power_metrics",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 5,
+      "lineup_confirmed": true,
+      "odds_warning": "Book 'None' not available; using betmgm (-105)",
+      "odds_verified": true,
+      "opposing_team": "Boston Red Sox",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projection 2.82 TB \u2014 1.32 above the 1.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 2.82 TB found in provided data."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Cold weather 42.6\u00b0F at Fenway falls below 50\u00b0F threshold for batter Over picks; material suppression of ball carry."
+      ],
+      "model_support_score": 1.32,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.45, watch >= 0.15 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+1.32)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+1.32) | Projection guardrail passed | Data completeness 100%"
     },
     {
       "player": "Freddie Freeman",
       "team": "Los Angeles Dodgers",
       "matchup": "Los Angeles Dodgers @ San Francisco Giants",
       "prop_type": "batter_hits",
+      "line": 1.5,
+      "recommendation": "Over",
+      "best_book": "draftkings",
+      "best_odds": 182,
+      "edge_summary": "Freeman is one of the elite contact-plus-quality hitters on the slate \u2014 89.2% contact rate, xBA .343, and a 80% O0.5 historical rate. He's hit O1.5 in 47% of his last 15 games, just below the strong threshold, but his projection of 1.74 hits sits above the 1.5 line. Facing Tyler Mahle (xFIP 3.85), a groundball pitcher, Freeman's LHH profile against a RHP with no strong platoon suppression makes this a structural Over play.",
+      "key_stats": {
+        "hist_hit_rate_over15": 0.47,
+        "hist_hit_rate_over05": 0.8,
+        "contact_rate": 89.2,
+        "statcast_xba": ".343",
+        "season_avg": ".289",
+        "projected_hits": 1.74,
+        "hits_candidate_rank_score": 0.24,
+        "team_implied_total": 4.8,
+        "game_total": 8.0,
+        "projection_delta_vs_hit_line": 0.28,
+        "projected_total_bases": 2.64
+      },
+      "signals_for": [
+        "Hit O0.5 in 12/15 recent games (80% hit rate) \u2014 elite baseline contact frequency",
+        "Hit O1.5 in 7/15 recent games (47%) \u2014 at threshold for structural Over lean",
+        "Contact rate 89.2% \u2014 one of the highest on the slate, almost always puts ball in play",
+        "xBA .343 \u2014 elite skill-based hit rate, not BABIP-driven"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "historical_rate",
+        "contact_rate",
+        "quality_of_contact"
+      ],
+      "conflicting_signals": [
+        "Oracle Park hits factor 96 \u2014 slight hit suppression, particularly for LHH (HR factor L: 85)",
+        "Tyler Mahle is a groundball pitcher (52.7% GB) \u2014 generates outs via contact, can limit quality of contact for hits",
+        "Lineup unconfirmed \u2014 confidence capped at Medium",
+        "Hits candidate rank score only +0.24 \u2014 modest projection cushion",
+        "[auditor] Oracle Park hits factor 96 suppresses hits (neutral-to-slight suppression). LHH factor even lower at 85 for HR, relevant context.",
+        "[auditor] Lineup unconfirmed per data (away confirmed: false). Batting-order-dependent claim in signals_for is material bear case."
+      ],
+      "platoon_note": "LHH vs RHP (Mahle) \u2014 LHH at Oracle Park face deep RF, HR factor 85 suppresses extra bases but singles unaffected",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Oracle Park hits factor 96 \u2014 marginally hit-suppressing; deep outfield can turn some line drives into outs",
+      "weather_note": "51\u00b0F, 5.4 mph NW crosswind \u2014 mild marine layer, neutral to slightly suppressive",
+      "umpire_note": "No umpire data available for this game",
+      "edge_strength": "4 signals aligned: 80% hist rate O0.5, contact rate 89.2%, xBA .343, projection above 1.5 line",
+      "market_edge_type": "contact_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": false,
+      "odds_warning": "Book 'None' not available; using draftkings (+182)",
+      "odds_verified": true,
+      "opposing_team": "San Francisco Giants",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projection 1.74 hits \u2014 above the 1.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 1.74 hits provided."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Oracle Park hits factor 96 suppresses hits (neutral-to-slight suppression). LHH factor even lower at 85 for HR, relevant context.",
+        "Lineup unconfirmed per data (away confirmed: false). Batting-order-dependent claim in signals_for is material bear case."
+      ],
+      "model_support_score": 0.28,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+0.28)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+0.28) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "James Wood",
+      "team": "Washington Nationals",
+      "matchup": "Atlanta Braves @ Washington Nationals",
+      "prop_type": "batter_total_bases",
+      "line": 1.5,
+      "recommendation": "Over",
+      "best_book": "betmgm",
+      "best_odds": 125,
+      "edge_summary": "Wood has one of the most imposing power profiles on the slate \u2014 barrel% 28.8%, hard hit% 66.1%, xSLG .646 \u2014 making him a structural TB Over candidate regardless of recent form. He's hit O1.5 TB in 67% of his last 15 games, well above the 50% strong threshold, facing a below-average Didier Fuentes (xFIP 3.61 but with a weak K arsenal). His projection of 3.0 TB sits well above the 1.5 line at +1.5 delta.",
+      "key_stats": {
+        "hist_tb_rate_over15": 0.67,
+        "statcast_xslg": ".646",
+        "statcast_barrel_pct": "28.8",
+        "statcast_hard_hit_pct": "66.1",
+        "projected_total_bases": 3.0,
+        "tb_candidate_rank_score": 1.5,
+        "team_implied_total": 3.8,
+        "game_total": 9.0,
+        "projected_hits": 1.14,
+        "projection_delta_vs_hit_line": -0.36,
+        "projection_delta_vs_tb_line": 1.5
+      },
+      "signals_for": [
+        "Hit O1.5 TB in 10/15 recent games (67% historical rate) \u2014 above strong threshold",
+        "xSLG .646 \u2014 elite power projection",
+        "Barrel% 28.8% + hard hit% 66.1% \u2014 elite power metrics convergence",
+        "Lineup confirmed \u2014 no scratch risk"
+      ],
+      "signal_names": [
+        "historical_rate",
+        "power_metrics",
+        "power_metrics",
+        "historical_rate"
+      ],
+      "conflicting_signals": [
+        "Recent BABIP .400 vs season .294 \u2014 106 points above season average, meaningful regression risk for hit-based component",
+        "Team implied total only 3.8 \u2014 Nationals are home underdogs, limited run environment suppresses floor",
+        "Contact rate only 69.5% \u2014 K-prone profile means some games result in 0 TB via strikeouts",
+        "Facing Didier Fuentes who has xFIP 3.61 \u2014 not a soft matchup despite weak K arsenal",
+        "[auditor] Recent BABIP .400 vs season .294 = 106 points above season, exceeding 60-point threshold. Significant regression risk for hit-based TB component.",
+        "[auditor] Team implied total 3.8 is below 3.5 threshold for batter Over picks, though marginally. Suppressed run environment.",
+        "[auditor] Contact rate 69.5% is below average; K-prone profile (30.5% K rate) means material strikeout risk for 0 TB games."
+      ],
+      "platoon_note": "LHH vs RHP (Fuentes) \u2014 no strong platoon split data available",
+      "workload_note": "N/A \u2014 batter prop",
+      "park_note": "Nationals Park hits factor 99, HR factor L:98 \u2014 neutral park, no meaningful TB suppression",
+      "weather_note": "62\u00b0F, 5.9 mph crosswind \u2014 neutral",
+      "umpire_note": "Brian O'Nora: loose zone \u2014 hitter-friendly, marginal TB upside boost",
+      "edge_strength": "4 signals aligned: 67% hist rate O1.5 TB, xSLG .646, barrel% 28.8% + hard hit% 66.1%, projection +1.5 above line",
+      "market_edge_type": "power_metrics",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "odds_warning": "Book 'None' not available; using betmgm (+125)",
+      "odds_verified": true,
+      "opposing_team": "Atlanta Braves",
+      "data_completeness": 1.0,
+      "data_missing_fields": [],
+      "struck_signals": [],
+      "audit_struck_signals": [
+        {
+          "signal": "Projection 3.0 TB \u2014 1.5 above the line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 3.0 TB provided."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Recent BABIP .400 vs season .294 = 106 points above season, exceeding 60-point threshold. Significant regression risk for hit-based TB component.",
+        "Team implied total 3.8 is below 3.5 threshold for batter Over picks, though marginally. Suppressed run environment.",
+        "Contact rate 69.5% is below average; K-prone profile (30.5% K rate) means material strikeout risk for 0 TB games."
+      ],
+      "model_support_score": 1.5,
+      "model_support_bucket": "strong",
+      "model_threshold_note": "Model support thresholds: strong >= 0.45, watch >= 0.15 (default thresholds)",
+      "lineup_scope": "batter_own_lineup",
+      "decision_context": [
+        "Model support strong (+1.50)",
+        "Projection guardrail passed",
+        "Data completeness 100%"
+      ],
+      "decision_summary": "Model support strong (+1.50) | Projection guardrail passed | Data completeness 100%"
+    },
+    {
+      "player": "Cody Bellinger",
+      "team": "New York Yankees",
+      "matchup": "New York Yankees @ Boston Red Sox",
+      "prop_type": "batter_hits",
       "line": 0.5,
       "recommendation": "Over",
       "best_book": "betmgm",
       "best_odds": -250,
-      "edge_summary": "Freeman hit O0.5 in 13 of 15 recent games (87%) and his .350 xBA is among the strongest in the slate, indicating his hit production is genuinely skill-driven and not reliant on BABIP luck. He combines an 88.8% contact rate with legitimate hard contact (53.5% hard hit, 18.3% barrel) against a Landen Roupp who, while solid, has an xFIP of 3.11 \u2014 respectable but not elite-suppressing. Projection has Freeman at 1.75 hits (+1.25 above the 0.5 line).",
+      "edge_summary": "Bellinger has hit in 12 of his last 15 games (80%) and carries an elite contact rate of 87.5% that makes him one of the most reliable hit producers on the slate. Fenway's hits factor of 108 provides a meaningful structural boost for contact hitters. His projection of 1.56 hits sits well above the 0.5 line, and his xBA of .271 supports sustainable hit production. Facing Ranger Suarez (LHP) as a lefty batter is a negative platoon note, but Fenway and contact rate overwhelm this concern.",
       "key_stats": {
-        "hist_hit_rate_over05": 0.87,
-        "contact_rate": 88.8,
-        "statcast_xba": ".350",
-        "statcast_hard_hit_pct": "53.5",
-        "statcast_barrel_pct": "18.3",
-        "projected_hits": 1.75,
-        "projection_delta_vs_hit_line": 1.25,
-        "opp_pitcher_xfip": 3.113820101162142,
-        "recent_babip": 0.347,
-        "season_babip": 0.309,
-        "team_implied_total": 4.5,
-        "game_total": 7.5,
-        "projected_total_bases": 2.8
+        "hist_hit_rate_over05": 0.8,
+        "contact_rate": 87.5,
+        "statcast_xba": ".271",
+        "season_avg": ".278",
+        "projected_hits": 1.56,
+        "hits_candidate_rank_score": 1.06,
+        "park_hits_factor": 108,
+        "team_implied_total": 4.8,
+        "game_total": 8.0,
+        "projection_delta_vs_hit_line": 0.98,
+        "projected_total_bases": 1.76
       },
       "signals_for": [
-        "Hit O0.5 in 13/15 recent games (87% historical rate)",
-        "xBA .350 \u2014 elite skill-based hit quality confirming sustainable rate",
-        "Hard hit 53.5% + barrel 18.3% \u2014 quality of contact supports hits",
-        "Projection: 1.75 hits vs 0.5 line (+1.25 delta)"
+        "Hit O0.5 in 12/15 recent games (80% historical rate)",
+        "Contact rate 87.5% \u2014 elite, almost always puts ball in play",
+        "xBA .271 \u2014 skill-based, supports sustainable hit rate",
+        "Fenway Park hits factor 108 \u2014 meaningfully inflates hit probability"
       ],
       "signal_names": [
         "historical_rate",
+        "contact_rate",
         "quality_of_contact",
-        "power_metrics",
-        "opposing_pitcher_form"
+        "park_factor"
       ],
       "conflicting_signals": [
-        "Recent BABIP .347 vs season .309 \u2014 modest overperformance, minor regression risk",
-        "Oracle Park hits factor 96 \u2014 slight hit suppression environment",
-        "LHH vs RHP Roupp \u2014 groundball pitcher (52.6% GB) suppresses extra base hits, though singles remain accessible",
-        "Team implied total 4.5 \u2014 not a high-offense environment",
-        "[auditor] Recent BABIP .347 vs season .309 shows meaningful +38 point elevation \u2014 material regression risk on batting average",
-        "[auditor] Oracle Park hits factor 96 \u2014 slight hit suppression environment",
-        "[auditor] Team implied total 4.5 (away_implied) \u2014 moderate scoring environment limits plate appearances"
+        "LHH vs LHP (Ranger Suarez) \u2014 same-side platoon disadvantage, typically 20-30 point AVG suppression",
+        "Suarez xFIP 3.71 \u2014 solid left-handed starter, not a soft matchup",
+        "42\u00b0F cold at Fenway \u2014 temperature suppresses offense slightly",
+        "Barrel% only 8.7% \u2014 contact-first profile, limited extra-base contribution",
+        "[auditor] LHH (Bellinger bats L) vs LHP (Ranger Suarez throws L) represents platoon disadvantage. Same-side matchup typically suppresses performance 20-30 points, material concern for hits pick.",
+        "[auditor] Cold weather 42.6\u00b0F at Fenway falls below 50\u00b0F threshold for batter Over picks; material suppression."
       ],
-      "platoon_note": "LHH vs RHP Landen Roupp \u2014 no platoon disadvantage for Freeman historically as a premier LHH",
+      "platoon_note": "LHH vs LHP (Ranger Suarez) \u2014 negative platoon matchup, though contact rate 87.5% partially offsets",
       "workload_note": "N/A \u2014 batter prop",
-      "park_note": "Oracle Park hits factor 96 \u2014 minor suppression, LHH HR factor 85 (deep RF), limits extra base upside but singles still plentiful",
-      "weather_note": "48.8\u00b0F \u2014 cold weather at Oracle Park can suppress offense marginally",
-      "umpire_note": "Junior Valentine: tight zone \u2014 marginally suppresses walks, more plate engagement",
-      "edge_strength": "4 signals aligned: 87% hit rate over 15 games, xBA .350 elite contact quality, 88.8% contact rate, +1.25 projection delta",
+      "park_note": "Fenway Park hits factor 108 \u2014 one of the highest hit factors in MLB, strong structural boost",
+      "weather_note": "42\u00b0F at Fenway, 3.3 mph wind \u2014 cold temperature, modest suppression risk",
+      "umpire_note": "Todd Tichenor: neutral zone \u2014 no meaningful hit impact",
+      "edge_strength": "4 signals aligned: 80% hist rate O0.5, contact rate 87.5%, Fenway hits factor 108, projection +1.06 above line",
       "market_edge_type": "historical_rate",
       "signal_durability": "durable",
       "expert_corroboration": false,
@@ -235,387 +808,32 @@
       "lineup_confirmed": true,
       "odds_warning": "Book 'None' not available; using betmgm (-250)",
       "odds_verified": true,
-      "opposing_team": "San Francisco Giants",
+      "opposing_team": "Boston Red Sox",
       "data_completeness": 1.0,
       "data_missing_fields": [],
       "struck_signals": [],
       "audit_struck_signals": [
         {
-          "signal": "88.8% contact rate \u2014 reliable ball-in-play producer",
-          "name": "contact_rate",
+          "signal": "Projection 1.56 hits \u2014 well above the 0.5 line",
+          "name": "historical_rate",
           "verdict": "not_found",
-          "reason": "Contact rate not explicitly labeled; k_percent 11.2 would imply ~88.8%, but metric not directly provided in source data."
+          "reason": "No explicit projection of 1.56 hits provided."
         }
       ],
       "audit_hidden_bear_cases": [
-        "Recent BABIP .347 vs season .309 shows meaningful +38 point elevation \u2014 material regression risk on batting average",
-        "Oracle Park hits factor 96 \u2014 slight hit suppression environment",
-        "Team implied total 4.5 (away_implied) \u2014 moderate scoring environment limits plate appearances"
+        "LHH (Bellinger bats L) vs LHP (Ranger Suarez throws L) represents platoon disadvantage. Same-side matchup typically suppresses performance 20-30 points, material concern for hits pick.",
+        "Cold weather 42.6\u00b0F at Fenway falls below 50\u00b0F threshold for batter Over picks; material suppression."
       ],
-      "model_support_score": 1.25,
+      "model_support_score": 0.98,
       "model_support_bucket": "strong",
       "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
       "lineup_scope": "batter_own_lineup",
       "decision_context": [
-        "Model support strong (+1.25)",
+        "Model support strong (+0.98)",
         "Projection guardrail passed",
         "Data completeness 100%"
       ],
-      "decision_summary": "Model support strong (+1.25) | Projection guardrail passed | Data completeness 100%"
-    },
-    {
-      "player": "Dalton Rushing",
-      "team": "Los Angeles Dodgers",
-      "matchup": "Los Angeles Dodgers @ San Francisco Giants",
-      "prop_type": "batter_total_bases",
-      "line": 1.5,
-      "recommendation": "Over",
-      "best_book": "draftkings",
-      "best_odds": 126,
-      "edge_summary": "Rushing has the most dominant power profile in the entire batter candidate pool: 26.3% barrel rate, 63.2% hard hit rate, and a .837 xSLG that reflects elite true power. He cleared 1.5 TB in 75% of his recent 8 games and projects at 5.41 total bases \u2014 a massive +3.91 delta above the line. Even adjusting for small sample (8 games) and Oracle Park's pitcher-friendly dimensions, the underlying Statcast signals are among the strongest available.",
-      "key_stats": {
-        "hist_tb_rate_over15": 0.75,
-        "statcast_xslg": ".837",
-        "statcast_barrel_pct": "26.3",
-        "statcast_hard_hit_pct": "63.2",
-        "statcast_xba": ".332",
-        "projected_total_bases": 5.41,
-        "projection_delta_vs_tb_line": 3.91,
-        "recent_avg_tb": 4.38,
-        "opp_pitcher_xfip": 3.113820101162142,
-        "team_implied_total": 4.5,
-        "game_total": 7.5,
-        "projected_hits": 1.92,
-        "projection_delta_vs_hit_line": 0.42
-      },
-      "signals_for": [
-        "Hit O1.5 TB in 6/8 recent games (75% historical rate)",
-        "xSLG .837 \u2014 extreme power metrics, one of highest in slate",
-        "Barrel rate 26.3% + hard hit 63.2% \u2014 elite structural power",
-        "Projection: 5.41 TB vs 1.5 line (+3.91 delta)",
-        "xBA .332 supports contact plus power combination"
-      ],
-      "signal_names": [
-        "historical_rate",
-        "power_metrics",
-        "power_metrics",
-        "opposing_pitcher_form",
-        "quality_of_contact"
-      ],
-      "conflicting_signals": [
-        "Only 8-game sample \u2014 extremely small, BABIP .417 recent vs .417 season (coincidentally matched but early season data unreliable)",
-        "Oracle Park: LHH HR factor 85 \u2014 one of most suppressive HR environments in MLB for LHH, meaningfully caps HR upside",
-        "Roupp is a groundball pitcher (52.6% GB) \u2014 suppresses fly balls and home run frequency",
-        "Team implied total 4.5 \u2014 moderate scoring environment",
-        "Cold weather (48.8\u00b0F) can suppress ball carry at Oracle",
-        "[auditor] Oracle Park LHH HR factor 85 \u2014 one of MLB's most suppressive HR environments for left-handed batters, materially caps power upside",
-        "[auditor] Roupp groundball pitcher (52.6% GB) suppresses fly balls and home run frequency critical to TB ceiling",
-        "[auditor] Cold weather 48.8\u00b0F at Oracle Park \u2014 reduces ball carry distance, especially harmful for power props",
-        "[auditor] Sample size only 8 games \u2014 extremely small; BABIP .417 recent = .417 season coincidentally matched but unreliable early-season data"
-      ],
-      "platoon_note": "LHH vs RHP Roupp \u2014 LHH HR factor at Oracle Park is 85 (severely suppressed), limiting HR-based TB accumulation",
-      "workload_note": "N/A \u2014 batter prop",
-      "park_note": "Oracle Park LHH HR factor 85 \u2014 significant LHH HR suppression; limits ceiling but singles and doubles still count toward TB",
-      "weather_note": "48.8\u00b0F cold \u2014 ball doesn't carry as far, compounding Oracle Park suppression for HR-dependent TB",
-      "umpire_note": "Junior Valentine: tight zone \u2014 no direct TB impact",
-      "edge_strength": "4 signals aligned: 75% TB rate over 8 games, xSLG .837 elite power, barrel 26.3%, +3.91 projection delta",
-      "market_edge_type": "power_metrics",
-      "signal_durability": "durable",
-      "expert_corroboration": false,
-      "expert_sources": [],
-      "confidence": "Medium",
-      "signals_count": 5,
-      "lineup_confirmed": true,
-      "odds_warning": "Book 'None' not available; using draftkings (+126)",
-      "odds_verified": true,
-      "opposing_team": "San Francisco Giants",
-      "data_completeness": 1.0,
-      "data_missing_fields": [],
-      "struck_signals": [],
-      "audit_struck_signals": [],
-      "audit_hidden_bear_cases": [
-        "Oracle Park LHH HR factor 85 \u2014 one of MLB's most suppressive HR environments for left-handed batters, materially caps power upside",
-        "Roupp groundball pitcher (52.6% GB) suppresses fly balls and home run frequency critical to TB ceiling",
-        "Cold weather 48.8\u00b0F at Oracle Park \u2014 reduces ball carry distance, especially harmful for power props",
-        "Sample size only 8 games \u2014 extremely small; BABIP .417 recent = .417 season coincidentally matched but unreliable early-season data"
-      ],
-      "model_support_score": 3.91,
-      "model_support_bucket": "strong",
-      "model_threshold_note": "Model support thresholds: strong >= 0.45, watch >= 0.15 (default thresholds)",
-      "lineup_scope": "batter_own_lineup",
-      "decision_context": [
-        "Model support strong (+3.91)",
-        "Projection guardrail passed",
-        "Data completeness 100%"
-      ],
-      "decision_summary": "Model support strong (+3.91) | Projection guardrail passed | Data completeness 100%"
-    },
-    {
-      "player": "Landen Roupp",
-      "team": "San Francisco Giants",
-      "matchup": "Los Angeles Dodgers @ San Francisco Giants",
-      "prop_type": "pitcher_strikeouts",
-      "line": 4.5,
-      "recommendation": "Over",
-      "best_book": "betmgm",
-      "best_odds": 125,
-      "edge_summary": "Roupp exceeded 4.5 Ks in 3 of his last 4 starts (7, 7, 4, 6), has a 9.73 K/9 and 26.7% K rate with a 48% breaking ball usage mix. Oracle Park's K-friendly SO factor (105), a Dodgers lineup that strikes out at 23.4%, and a tight-zone umpire (Junior Valentine) all support K accumulation. Projection model has him at 6.85 Ks, +2.35 above the line.",
-      "key_stats": {
-        "recent_avg_k": 6.0,
-        "savant_k_pct": 26.7,
-        "season_k9": 9.73,
-        "projected_k": 6.85,
-        "projection_delta_vs_line": 2.35,
-        "opp_lineup_avg_k_pct": 23.4,
-        "park_so_factor": 105,
-        "k_bb_ratio": 3.43,
-        "putaway_whiff_pct": 31.3,
-        "opp_implied_total": 4.5,
-        "game_total": 7.5,
-        "opp_team_k_pct": 21.8,
-        "opp_lineup_k_pct": 23.4
-      },
-      "signals_for": [
-        "3/4 recent starts exceeded 4.5 Ks (7, 7, 6 Ks in three of last four)",
-        "Projection: 6.85 projected Ks vs 4.5 line (+2.35 delta)",
-        "48% breaking ball usage \u2014 high-volume putaway mix",
-        "K-prone Dodgers lineup: 23.4% avg K rate",
-        "Oracle Park SO factor 105 \u2014 K-friendly environment",
-        "Junior Valentine tight zone \u2014 rewards pitchers working corners"
-      ],
-      "signal_names": [
-        "historical_rate",
-        "opposing_pitcher_form",
-        "arsenal_quality",
-        "lineup_k_profile",
-        "park_factor",
-        "umpire_zone"
-      ],
-      "conflicting_signals": [
-        "One start with only 4 Ks (Apr 10) \u2014 falls short of line, showing real variance",
-        "Groundball pitcher type (52.6% GB) \u2014 gets outs via contact, limiting pure K accumulation vs what K/9 suggests",
-        "Curveball best whiff rate is 31.3% \u2014 good but not elite putaway rate",
-        "Dodgers are a quality lineup despite K tendencies \u2014 Freeman, Ohtani, Tucker all quality contact hitters",
-        "[auditor] Groundball pitcher 52.6% GB profile limits strikeout ceiling despite K/9 metrics",
-        "[auditor] One 4-K start (Apr 10) shows material variance; 4K falls short of 4.5 line"
-      ],
-      "platoon_note": "N/A \u2014 pitcher prop",
-      "workload_note": "5 days rest. Last 3 starts averaged 91.7 pitches \u2014 healthy workload range with room to go deep",
-      "park_note": "Oracle Park SO factor 105 \u2014 meaningfully K-friendly, supports Over",
-      "weather_note": "48.8\u00b0F \u2014 cold weather may sharpen breaking ball movement, marginally helping K generation",
-      "umpire_note": "Junior Valentine: tight zone \u2014 edge calls favor pitchers working corners, supports strikeout accumulation",
-      "edge_strength": "5 signals aligned: 75% recent start hit rate, +2.35 projection delta, K-prone lineup 23.4%, K-friendly park SO 105, tight zone umpire",
-      "market_edge_type": "arsenal_quality",
-      "signal_durability": "durable",
-      "expert_corroboration": false,
-      "expert_sources": [],
-      "confidence": "Medium",
-      "signals_count": 6,
-      "lineup_confirmed": true,
-      "odds_warning": "Book 'None' not available; using betmgm (+125)",
-      "odds_verified": true,
-      "opposing_team": "Los Angeles Dodgers",
-      "data_completeness": 1.0,
-      "data_missing_fields": [],
-      "struck_signals": [],
-      "audit_struck_signals": [
-        {
-          "signal": "9.73 K/9 and 26.7% K rate \u2014 strong K-generating profile",
-          "name": "count_efficiency",
-          "verdict": "magnitude_error",
-          "reason": "Season stats show strikeoutsPer9Inn 9.53 (not 9.73), K rate 26.7% verified. First number materially off by ~2%."
-        }
-      ],
-      "audit_hidden_bear_cases": [
-        "Groundball pitcher 52.6% GB profile limits strikeout ceiling despite K/9 metrics",
-        "One 4-K start (Apr 10) shows material variance; 4K falls short of 4.5 line"
-      ],
-      "model_support_score": 2.35,
-      "model_support_bucket": "strong",
-      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
-      "lineup_scope": "opposing_batting_lineup",
-      "decision_context": [
-        "Model support strong (+2.35)",
-        "Projection guardrail passed",
-        "Data completeness 100%"
-      ],
-      "decision_summary": "Model support strong (+2.35) | Projection guardrail passed | Data completeness 100%"
-    },
-    {
-      "player": "Jes\u00fas Luzardo",
-      "team": "Philadelphia Phillies",
-      "matchup": "Philadelphia Phillies @ Chicago Cubs",
-      "prop_type": "pitcher_strikeouts",
-      "line": 5.5,
-      "recommendation": "Over",
-      "best_book": "betmgm",
-      "best_odds": 115,
-      "edge_summary": "Luzardo has hit O5.5 Ks in 3 of his last 4 starts (7, 11, 8 Ks in three starts), carries a 12.16 K/9 and 30.6% K rate with a 97.3 mph fastball and a sweeper generating 49% whiff rate. His 6.0 K/BB ratio reflects dominant command and the projection model has him at 7.57 Ks (+2.07 above the line). The Cubs lineup K rate of 21.3% is average, not a headwind.",
-      "key_stats": {
-        "recent_avg_k": 7.5,
-        "savant_k_pct": 30.6,
-        "savant_whiff_pct": 33.9,
-        "season_k9": 12.16,
-        "k_bb_ratio": 6.0,
-        "putaway_whiff_pct": 49.0,
-        "projected_k": 7.57,
-        "projection_delta_vs_line": 2.07,
-        "velocity_flag": "97.3 mph avg fastball",
-        "opp_implied_total": 5.0,
-        "game_total": 8.5,
-        "opp_team_k_pct": 21.7,
-        "opp_lineup_k_pct": 21.3
-      },
-      "signals_for": [
-        "3/4 recent starts exceeded 5.5 Ks (7, 11, 8 Ks in three of last four)",
-        "Projection: 7.57 projected Ks vs 5.5 line (+2.07 delta)",
-        "12.16 K/9 and 30.6% K rate \u2014 elite strikeout profile",
-        "Sweeper generating 49% whiff rate \u2014 premier putaway pitch",
-        "97.3 mph fastball \u2014 high-velo arm elevates swings-and-misses",
-        "6.0 K/BB ratio \u2014 elite command keeps counts favorable"
-      ],
-      "signal_names": [
-        "historical_rate",
-        "opposing_pitcher_form",
-        "count_efficiency",
-        "arsenal_quality",
-        "velocity_trend",
-        "count_efficiency"
-      ],
-      "conflicting_signals": [
-        "Most recent start Apr 15: only 4 Ks \u2014 significant miss, falls well short of 5.5 line",
-        "Groundball pitcher (52.4% GB) \u2014 generates contact outs that reduce pure K volume",
-        "Cubs lineup K rate 21.3% \u2014 average, not a K-prone matchup",
-        "Last 3 starts averaged 94.3 pitches \u2014 heavier workload with 4 consecutive near-100-pitch outings may lead to earlier hook",
-        "Wrigley Field SO factor 100 \u2014 neutral, no park boost",
-        "[auditor] Most recent start Apr 15: only 4 Ks \u2014 significant underperformance shows material variance even for elite arms",
-        "[auditor] Heavy workload: last 3 starts avg 94.3 pitches with consecutive near-100-pitch outings, may lead to early hook",
-        "[auditor] Cubs lineup K rate only 21.3% \u2014 below-average strikeout tendency, less K-prone than league average"
-      ],
-      "platoon_note": "N/A \u2014 pitcher prop",
-      "workload_note": "6 days rest. Last 3 starts averaged 94.3 pitches \u2014 consistent high pitch counts across all 4 starts (86-99), suggesting full-outing workload expected",
-      "park_note": "Wrigley Field SO factor 100 \u2014 neutral K environment",
-      "weather_note": "59.5\u00b0F at Wrigley, wind 5.9 mph crosswind \u2014 neutral conditions",
-      "umpire_note": "Vic Carapazza: neutral zone \u2014 no directional K skew",
-      "edge_strength": "4 signals aligned: 75% recent start rate, +2.07 projection delta, 12.16 K/9 elite profile, 49% sweeper whiff rate",
-      "market_edge_type": "arsenal_quality",
-      "signal_durability": "durable",
-      "expert_corroboration": false,
-      "expert_sources": [],
-      "confidence": "Medium",
-      "signals_count": 6,
-      "lineup_confirmed": true,
-      "odds_warning": "Book 'None' not available; using betmgm (+115)",
-      "odds_verified": true,
-      "opposing_team": "Chicago Cubs",
-      "data_completeness": 1.0,
-      "data_missing_fields": [],
-      "struck_signals": [],
-      "audit_struck_signals": [],
-      "audit_hidden_bear_cases": [
-        "Most recent start Apr 15: only 4 Ks \u2014 significant underperformance shows material variance even for elite arms",
-        "Heavy workload: last 3 starts avg 94.3 pitches with consecutive near-100-pitch outings, may lead to early hook",
-        "Cubs lineup K rate only 21.3% \u2014 below-average strikeout tendency, less K-prone than league average"
-      ],
-      "model_support_score": 2.07,
-      "model_support_bucket": "strong",
-      "model_threshold_note": "Model support thresholds: strong >= 0.8, watch >= 0.3 (default thresholds)",
-      "lineup_scope": "opposing_batting_lineup",
-      "decision_context": [
-        "Model support strong (+2.07)",
-        "Projection guardrail passed",
-        "Data completeness 100%"
-      ],
-      "decision_summary": "Model support strong (+2.07) | Projection guardrail passed | Data completeness 100%"
-    },
-    {
-      "player": "Josh Jung",
-      "team": "Texas Rangers",
-      "matchup": "Pittsburgh Pirates @ Texas Rangers",
-      "prop_type": "batter_hits",
-      "line": 0.5,
-      "recommendation": "Over",
-      "best_book": "draftkings",
-      "best_odds": -186,
-      "edge_summary": "Jung hit O0.5 in 12 of his last 15 games (80%) and carries a .304 xBA suggesting his .385 recent batting average has legitimate skill backing it. He faces Carmen Mlodzinski who has a 4.5 xFIP and a declining K trend \u2014 favorable pitcher context. The projection model has him at 1.53 hits (+1.03 above the 0.5 line). The 81.6% contact rate further anchors his reliability as a hit producer.",
-      "key_stats": {
-        "hist_hit_rate_over05": 0.8,
-        "statcast_xba": ".304",
-        "contact_rate": 81.6,
-        "statcast_hard_hit_pct": "55.4",
-        "projected_hits": 1.53,
-        "projection_delta_vs_hit_line": 1.03,
-        "opp_pitcher_xfip": 3.572387315490617,
-        "recent_batting_avg": 0.385,
-        "recent_babip": 0.419,
-        "season_babip": 0.333,
-        "team_implied_total": 3.2,
-        "game_total": 8.0,
-        "projected_total_bases": 1.85
-      },
-      "signals_for": [
-        "Hit O0.5 in 12/15 recent games (80% historical rate)",
-        "xBA .304 \u2014 skill-based hit rate, not purely luck-driven",
-        "Projection: 1.53 hits vs 0.5 line (+1.03 delta)",
-        "Mlodzinski xFIP 4.50 \u2014 vulnerable opposing pitcher, declining K trend"
-      ],
-      "signal_names": [
-        "historical_rate",
-        "quality_of_contact",
-        "opposing_pitcher_form",
-        "opposing_pitcher_form"
-      ],
-      "conflicting_signals": [
-        "Recent BABIP .419 vs season .333 \u2014 meaningful overperformance, regression risk on batting average",
-        "Barrel rate only 1.8% \u2014 extremely low, nearly all hard contact is line drives/grounders; power-dependent TB suppressed",
-        "Team implied total 3.2 \u2014 suppressed offense environment limits plate appearances",
-        "Texas implied only 3.2 \u2014 Rangers not expected to score much",
-        "[auditor] Recent BABIP .419 vs season .333 shows +86 point elevation \u2014 significant regression risk on hit rate",
-        "[auditor] Barrel rate only 1.8% \u2014 extremely low, power-dependent output heavily suppressed",
-        "[auditor] Team implied total 3.2 (home_implied) \u2014 suppressed offensive environment materially limits plate appearances"
-      ],
-      "platoon_note": "RHH vs RHP Carmen Mlodzinski \u2014 no significant platoon disadvantage",
-      "workload_note": "N/A \u2014 batter prop",
-      "park_note": "Globe Life Field hits factor 100 \u2014 neutral",
-      "weather_note": "Roof closed at Globe Life Field \u2014 weather irrelevant",
-      "umpire_note": "Mark Ripperger: neutral zone \u2014 no directional skew",
-      "edge_strength": "3 signals aligned: 80% historical hit rate, xBA .304 skill confirmation, vulnerable opposing pitcher xFIP 4.50",
-      "market_edge_type": "historical_rate",
-      "signal_durability": "durable",
-      "expert_corroboration": false,
-      "expert_sources": [],
-      "confidence": "Medium",
-      "signals_count": 4,
-      "lineup_confirmed": true,
-      "odds_warning": "Book 'None' not available; using draftkings (-186)",
-      "odds_verified": true,
-      "opposing_team": "Pittsburgh Pirates",
-      "data_completeness": 1.0,
-      "data_missing_fields": [],
-      "struck_signals": [],
-      "audit_struck_signals": [
-        {
-          "signal": "81.6% contact rate \u2014 reliable ball-in-play producer",
-          "name": "contact_rate",
-          "verdict": "not_found",
-          "reason": "Contact rate not explicitly labeled; k_percent 18.4 would imply ~81.6%, but metric not directly provided in source."
-        }
-      ],
-      "audit_hidden_bear_cases": [
-        "Recent BABIP .419 vs season .333 shows +86 point elevation \u2014 significant regression risk on hit rate",
-        "Barrel rate only 1.8% \u2014 extremely low, power-dependent output heavily suppressed",
-        "Team implied total 3.2 (home_implied) \u2014 suppressed offensive environment materially limits plate appearances"
-      ],
-      "model_support_score": 1.03,
-      "model_support_bucket": "strong",
-      "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
-      "lineup_scope": "batter_own_lineup",
-      "decision_context": [
-        "Model support strong (+1.03)",
-        "Projection guardrail passed",
-        "Data completeness 100%"
-      ],
-      "decision_summary": "Model support strong (+1.03) | Projection guardrail passed | Data completeness 100%"
+      "decision_summary": "Model support strong (+0.98) | Projection guardrail passed | Data completeness 100%"
     },
     {
       "player": "Oneil Cruz",
@@ -626,113 +844,176 @@
       "recommendation": "Over",
       "best_book": "betmgm",
       "best_odds": -190,
-      "edge_summary": "Cruz hit O0.5 in 12 of 15 recent games (80%) against a Kumar Rocker who carries a 4.45 xFIP. His power metrics (63.2% hard hit, 21.1% barrel) are elite and his .270 xBA supports sustainable contact. The projection model has him at 1.4 hits (+0.9 above the line), and Pittsburgh's implied total of 4.8 is one of the better offensive environments for road teams in this slate.",
+      "edge_summary": "Cruz has hit in 12 of his last 15 games (80%), with xBA of .279 and hard hit% of 63.3% backing the underlying quality. He faces Jack Leiter (xFIP 3.67), who is a workload risk after 105 pitches last outing, which may limit effectiveness. The projection of 1.32 hits sits comfortably above the 0.5 line. The primary risk is Cruz's elevated contact rate concerns (68% contact) and a BABIP that may be running slightly hot.",
       "key_stats": {
         "hist_hit_rate_over05": 0.8,
-        "statcast_xba": ".270",
-        "statcast_hard_hit_pct": "63.2",
-        "statcast_barrel_pct": "21.1",
-        "contact_rate": 67.7,
-        "projected_hits": 1.4,
-        "projection_delta_vs_hit_line": 0.9,
-        "opp_pitcher_xfip": 4.449002606143869,
-        "team_implied_total": 4.8,
-        "game_total": 8.0,
-        "projected_total_bases": 2.71
+        "contact_rate": 68.0,
+        "statcast_xba": ".279",
+        "statcast_hard_hit_pct": "63.3",
+        "projected_hits": 1.32,
+        "hits_candidate_rank_score": 0.82,
+        "season_babip": ".389",
+        "recent_babip": 0.395,
+        "team_implied_total": 4.5,
+        "game_total": 7.5,
+        "projection_delta_vs_hit_line": 0.82,
+        "projected_total_bases": 2.63
       },
       "signals_for": [
         "Hit O0.5 in 12/15 recent games (80% historical rate)",
-        "Hard hit 63.2% + barrel 21.1% \u2014 elite contact quality when ball is put in play",
-        "Projection: 1.4 hits vs 0.5 line (+0.9 delta)",
-        "Kumar Rocker xFIP 4.45 \u2014 vulnerable opposing pitcher",
-        "Pittsburgh implied total 4.8 \u2014 above-average offensive environment"
+        "xBA .279 \u2014 above threshold for quality hit rate",
+        "Hard hit% 63.3% \u2014 elite contact quality when he makes contact"
       ],
       "signal_names": [
         "historical_rate",
-        "power_metrics",
-        "opposing_pitcher_form",
-        "opposing_pitcher_form",
-        "implied_total"
+        "quality_of_contact",
+        "quality_of_contact"
       ],
       "conflicting_signals": [
-        "Contact rate only 67.7% \u2014 high K tendency means many PA end without ball in play",
-        "Recent BABIP .395 vs season .392 \u2014 consistent but elevated BABIP could regress",
-        "High-K profile (67.7% contact) creates meaningful game-to-game variance even with good historical rate",
-        "[auditor] Contact rate only 67.7% (inverse of 32.3% K rate) \u2014 high strikeout tendency creates material PA-to-PA variance",
-        "[auditor] Recent BABIP .395 vs season .392 suggests minimal but present regression risk on batting average"
+        "Contact rate only 68% \u2014 K-prone hitter, some games produce 0 hits via strikeouts",
+        "Lineup unconfirmed \u2014 cannot verify Cruz is in today's lineup",
+        "Leiter K trend declining but still has elite arsenal (Slider 43% whiff) \u2014 capable of dominant outings",
+        "Pittsburgh team implied only 4.5 \u2014 moderate run environment",
+        "[auditor] Away team lineup unconfirmed (away confirmed: false). Cannot verify Cruz is in today's lineup; batting-order-dependent claim creates material risk."
       ],
-      "platoon_note": "LHH vs RHP Rocker \u2014 no significant platoon data flagged",
-      "workload_note": "N/A \u2014 batter prop",
+      "platoon_note": "LHH vs RHP (Leiter) \u2014 no significant platoon suppression for this matchup",
+      "workload_note": "Opposing pitcher Jack Leiter threw 105 pitches last start \u2014 potential effectiveness or duration cap today",
       "park_note": "Globe Life Field hits factor 100 \u2014 neutral",
-      "weather_note": "Roof closed at Globe Life Field \u2014 weather irrelevant",
-      "umpire_note": "Mark Ripperger: neutral zone \u2014 no directional skew",
-      "edge_strength": "3 signals aligned: 80% historical hit rate, elite hard contact 63.2%, vulnerable pitcher xFIP 4.45",
+      "weather_note": "Roof closed at Globe Life Field \u2014 weather neutral",
+      "umpire_note": "Shane Livensparger: neutral zone \u2014 no meaningful hit impact",
+      "edge_strength": "4 signals aligned: 80% hist rate O0.5, xBA .279, hard hit% 63.3%, opposing pitcher workload flag",
       "market_edge_type": "historical_rate",
       "signal_durability": "durable",
       "expert_corroboration": false,
       "expert_sources": [],
-      "confidence": "Medium",
-      "signals_count": 5,
-      "lineup_confirmed": true,
+      "confidence": "Speculative",
+      "signals_count": 3,
+      "lineup_confirmed": false,
       "odds_warning": "Book 'None' not available; using betmgm (-190)",
       "odds_verified": true,
       "opposing_team": "Texas Rangers",
       "data_completeness": 1.0,
       "data_missing_fields": [],
-      "struck_signals": [],
-      "audit_struck_signals": [],
-      "audit_hidden_bear_cases": [
-        "Contact rate only 67.7% (inverse of 32.3% K rate) \u2014 high strikeout tendency creates material PA-to-PA variance",
-        "Recent BABIP .395 vs season .392 suggests minimal but present regression risk on batting average"
+      "struck_signals": [
+        {
+          "signal": "Opposing Jack Leiter workload flag: 105 pitches last outing \u2014 potential effectiveness cap today",
+          "name": "workload",
+          "reason": "category 'workload' has no backing source data"
+        }
       ],
-      "model_support_score": 0.9,
+      "audit_struck_signals": [
+        {
+          "signal": "Projection 1.32 hits \u2014 well above the 0.5 line",
+          "name": "historical_rate",
+          "verdict": "not_found",
+          "reason": "No explicit projection of 1.32 hits provided."
+        }
+      ],
+      "audit_hidden_bear_cases": [
+        "Away team lineup unconfirmed (away confirmed: false). Cannot verify Cruz is in today's lineup; batting-order-dependent claim creates material risk."
+      ],
+      "audit_cap_note": "Audit: Medium \u2192 Speculative (struck 1, added 1 hidden bear case(s))",
+      "model_support_score": 0.82,
       "model_support_bucket": "strong",
       "model_threshold_note": "Model support thresholds: strong >= 0.2, watch >= 0.05 (default thresholds)",
       "lineup_scope": "batter_own_lineup",
       "decision_context": [
-        "Model support strong (+0.90)",
+        "Model support strong (+0.82)",
         "Projection guardrail passed",
+        "Audit: Medium \u2192 Speculative (struck 1, added 1 hidden bear case(s))",
         "Data completeness 100%"
       ],
-      "decision_summary": "Model support strong (+0.90) | Projection guardrail passed | Data completeness 100%"
+      "decision_summary": "Model support strong (+0.82) | Projection guardrail passed | Audit: Medium \u2192 Speculative (struck 1, added 1 hidden bear case(s))"
     }
   ],
   "summary": {
     "games_today": 11,
     "props_analyzed": 34,
-    "props_flagged": 8,
-    "generated_at": "2026-04-21T22:00:00Z"
+    "props_flagged": 11,
+    "generated_at": "2026-04-22T18:00:00Z"
   },
-  "removed_props": [],
+  "removed_props": [
+    {
+      "player": "Logan Gilbert",
+      "team": "Seattle Mariners",
+      "matchup": "Athletics @ Seattle Mariners",
+      "prop_type": "pitcher_strikeouts",
+      "line": 6.5,
+      "recommendation": "Under",
+      "best_book": null,
+      "best_odds": null,
+      "edge_summary": "Gilbert's projected K total of 7.38 sits just barely above the 6.5 line, but the opposing Athletics lineup carries only a 20.8% K rate \u2014 well below the 23% K-prone threshold. While Gilbert has elite arsenal and count efficiency, his recent average of 6.4 Ks/start across 5 outings suggests the 6.5 line is right at his ceiling, not below it. Underdog Fantasy's own line of 6.5 aligns with this assessment, making the Over a thin play when the opponent actively suppresses K opportunity.",
+      "key_stats": {
+        "recent_avg_k": 6.4,
+        "projected_k": 7.38,
+        "opp_lineup_avg_k_pct": 20.8,
+        "savant_k_pct": 27.8,
+        "savant_whiff_pct": 30.1,
+        "projection_delta_vs_line": 0.88
+      },
+      "signals_for": [
+        "Recent avg K 6.4 across last 5 starts \u2014 line at 6.5 is above his average output",
+        "Opposing Athletics lineup K% 20.8% \u2014 below K-prone threshold of 23%",
+        "Projection delta only +0.88 above 6.5 line \u2014 marginal Over cushion",
+        "5/5 recent starts under 7 Ks (range 5-7), showing ceiling at or near line"
+      ],
+      "signal_names": [
+        "recent_form",
+        "lineup_k_profile",
+        "historical_rate",
+        "historical_rate"
+      ],
+      "conflicting_signals": [
+        "Elite arsenal: 55% breaking ball usage, Split-Finger whiff 42% \u2014 genuine K upside",
+        "Elite count dominator (65% strike%, 6.4 K/BB ratio) \u2014 maximizes K efficiency",
+        "High-velo arm (95.4 mph) adds swing-and-miss dimension",
+        "Projection model shows 7.38 projected Ks \u2014 technically above the line"
+      ],
+      "platoon_note": "N/A \u2014 pitcher prop",
+      "workload_note": "5 days rest, averaged 93.3 pitches last 3 starts \u2014 full workload expected",
+      "park_note": "T-Mobile Park SO factor 104 \u2014 marginally K-friendly but not extreme",
+      "weather_note": "Roof closed \u2014 weather neutral",
+      "umpire_note": "Alfonso M\u00e1rquez: neutral zone, no meaningful K impact",
+      "edge_strength": "4 signals aligned: avg K output below 6.5 line, contact-oriented A's lineup (20.8%), thin projection cushion, ceiling-capped start history",
+      "market_edge_type": "historical_rate",
+      "signal_durability": "durable",
+      "expert_corroboration": false,
+      "expert_sources": [],
+      "confidence": "Medium",
+      "signals_count": 4,
+      "lineup_confirmed": true,
+      "removal_reason": "Line Under 6.5 not found in odds data for pitcher_strikeouts in matchup Athletics @ Seattle Mariners"
+    }
+  ],
   "suggested_parlays": [
     {
       "type": "sgp",
       "type_label": "Same Game Parlay",
       "legs": [
         {
-          "player": "Dalton Rushing",
-          "team": "Los Angeles Dodgers",
-          "prop_display": "Total Bases Over 1.5",
-          "prop_type": "batter_total_bases",
+          "player": "Drake Baldwin",
+          "team": "Atlanta Braves",
+          "prop_display": "Hits Over 1.5",
+          "prop_type": "batter_hits",
           "line": 1.5,
           "recommendation": "Over",
-          "best_odds": 126,
+          "best_odds": 155,
           "confidence": "Medium",
           "is_connector": false
         },
         {
-          "player": "Landen Roupp",
-          "team": "San Francisco Giants",
-          "prop_display": "Strikeouts Over 4.5",
-          "prop_type": "pitcher_strikeouts",
-          "line": 4.5,
+          "player": "James Wood",
+          "team": "Washington Nationals",
+          "prop_display": "Total Bases Over 1.5",
+          "prop_type": "batter_total_bases",
+          "line": 1.5,
           "recommendation": "Over",
           "best_odds": 125,
           "confidence": "Medium",
           "is_connector": false
         },
         {
-          "player": "Kyle Tucker",
+          "player": "Mauricio Dubon",
           "team": "",
           "prop_display": "Hits Over 0.5",
           "prop_type": "batter_hits",
@@ -743,11 +1024,11 @@
           "is_connector": true
         }
       ],
-      "combined_odds": "+663",
-      "combined_decimal": 7.63,
-      "combined_edge": "24.2% vs 13.1% implied",
-      "parlay_edge_pct": 11.1,
-      "reasoning": "Same-game parlay anchored by Dalton Rushing + Landen Roupp edges. Kyle Tucker Hits added as a high-probability connector (67% implied) that fits the game script.",
+      "combined_odds": "+761",
+      "combined_decimal": 8.61,
+      "combined_edge": "23.4% vs 11.6% implied",
+      "parlay_edge_pct": 11.7,
+      "reasoning": "Same-game parlay anchored by Drake Baldwin + James Wood edges. Mauricio Dubon Hits added as a high-probability connector (67% implied) that fits the game script.",
       "confidence": "Medium"
     },
     {
@@ -755,29 +1036,29 @@
       "type_label": "Same Game Parlay",
       "legs": [
         {
-          "player": "Shota Imanaga",
-          "team": "Chicago Cubs",
-          "prop_display": "Strikeouts Over 6.5",
-          "prop_type": "pitcher_strikeouts",
-          "line": 6.5,
+          "player": "Aaron Judge",
+          "team": "New York Yankees",
+          "prop_display": "Total Bases Over 1.5",
+          "prop_type": "batter_total_bases",
+          "line": 1.5,
           "recommendation": "Over",
-          "best_odds": 112,
+          "best_odds": -105,
           "confidence": "Medium",
           "is_connector": false
         },
         {
-          "player": "Jes\u00fas Luzardo",
-          "team": "Philadelphia Phillies",
-          "prop_display": "Strikeouts Over 5.5",
-          "prop_type": "pitcher_strikeouts",
-          "line": 5.5,
+          "player": "Cody Bellinger",
+          "team": "New York Yankees",
+          "prop_display": "Hits Over 0.5",
+          "prop_type": "batter_hits",
+          "line": 0.5,
           "recommendation": "Over",
-          "best_odds": 115,
+          "best_odds": -250,
           "confidence": "Medium",
           "is_connector": false
         },
         {
-          "player": "Alec Bohm",
+          "player": "Willson Contreras",
           "team": "",
           "prop_display": "Hits Over 0.5",
           "prop_type": "batter_hits",
@@ -788,56 +1069,11 @@
           "is_connector": true
         }
       ],
-      "combined_odds": "+584",
-      "combined_decimal": 6.84,
-      "combined_edge": "24.2% vs 14.6% implied",
-      "parlay_edge_pct": 9.6,
-      "reasoning": "Same-game parlay anchored by Shota Imanaga + Jes\u00fas Luzardo edges. Alec Bohm Hits added as a high-probability connector (67% implied) that fits the game script.",
-      "confidence": "Medium"
-    },
-    {
-      "type": "sgp",
-      "type_label": "Same Game Parlay",
-      "legs": [
-        {
-          "player": "Josh Jung",
-          "team": "Texas Rangers",
-          "prop_display": "Hits Over 0.5",
-          "prop_type": "batter_hits",
-          "line": 0.5,
-          "recommendation": "Over",
-          "best_odds": -186,
-          "confidence": "Medium",
-          "is_connector": false
-        },
-        {
-          "player": "Oneil Cruz",
-          "team": "Pittsburgh Pirates",
-          "prop_display": "Hits Over 0.5",
-          "prop_type": "batter_hits",
-          "line": 0.5,
-          "recommendation": "Over",
-          "best_odds": -190,
-          "confidence": "Medium",
-          "is_connector": false
-        },
-        {
-          "player": "Ryan O'Hearn",
-          "team": "",
-          "prop_display": "Hits Over 0.5",
-          "prop_type": "batter_hits",
-          "line": 0.5,
-          "recommendation": "Over",
-          "best_odds": -200,
-          "confidence": "67% implied",
-          "is_connector": true
-        }
-      ],
-      "combined_odds": "+252",
-      "combined_decimal": 3.52,
-      "combined_edge": "23.4% vs 28.4% implied",
-      "parlay_edge_pct": -5.0,
-      "reasoning": "Same-game parlay anchored by Josh Jung + Oneil Cruz edges. Ryan O'Hearn Hits added as a high-probability connector (67% implied) that fits the game script.",
+      "combined_odds": "+310",
+      "combined_decimal": 4.1,
+      "combined_edge": "23.4% vs 24.4% implied",
+      "parlay_edge_pct": -1.0,
+      "reasoning": "Same-game parlay anchored by Aaron Judge + Cody Bellinger edges. Willson Contreras Hits added as a high-probability connector (67% implied) that fits the game script.",
       "confidence": "Medium"
     }
   ]
